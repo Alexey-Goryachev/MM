@@ -35,15 +35,17 @@ class Exchange:
 
         # Проверка успешности аутентификации
             response_auth.raise_for_status()
-            print(response_auth.text)
-            token_verify = {'token': response_auth['token']}
-            print(token_verify)
-
+            authentication = response_auth.json()
+            print(authentication)
+            self.token_auth = authentication['token']
+            
+            token_verify = {'token': self.token_auth}
+            
             try:
                 response_token_verify = requests.post(f'{self.base_url}/token/verify/', json=token_verify, headers=headers)
 
                 response_token_verify.raise_for_status()
-                print(response_token_verify.text)
+                print(f'Token is valid {response_token_verify.text}')
             except Exception as e:
                 # Выводим сообщение об ошибке с кодом ответа, если он доступен
                 status_code = getattr(e, 'response', None)
@@ -61,22 +63,7 @@ class Exchange:
             else:
                 raise Exception(f'Authentication failed: {str(e)}')
 
-        # token_verify = {'token': response_auth['token']}
-        # print(token_verify)
-
-        # try:
-        #     response_token_verify = requests.post(f'{self.base_url}/token/verify/', json=token_verify, headers=headers)
-
-        #     response_token_verify.raise_for_status()
-        #     print(response_token_verify.text)
-        # except Exception as e:
-        #     # Выводим сообщение об ошибке с кодом ответа, если он доступен
-        #     status_code = getattr(e, 'response', None)
-        #     print(status_code)
-        #     if status_code is not None:
-        #         print(f'Authentication failed: {str(e)}, Status code: {status_code}')
-        #     else:
-        #         raise Exception(f'Authentication failed: {str(e)}')
+    
             
 
     def get_current_prices(self, side='selling'):
@@ -93,7 +80,8 @@ class Exchange:
             # Распечатываем полученные цены
             self.prices_response = response.json()
             #print(self.prices_response)
-            #print(len(prices[side]))
+
+            #Получаем список текущих цен
             prices = []
             for price in self.prices_response[side]:
                 prices.append(price['unit_price'])
@@ -103,25 +91,17 @@ class Exchange:
             print(f'Error getting current prices: {str(e)}')
             raise
         
-    def place_order(self, quantity, price, order_type):
+    def place_order(self, amount, unit_price, currency_pair, type):
         # Размещение ордера на бирже
-        data = {'amount': f'{quantity}', 'unit_price': f'{price}', 'currency_pair': f'{self.trading_pair}', 'type': f'{order_type}'}
+        data = {'amount': f'{amount}', 'unit_price': f'{unit_price}', 'currency_pair': f'{currency_pair}', 'type': f'{type}'}
 
-        headers = {'Content-Type': 'application/json'}
+        headers = {'Content-Type': 'application/json', 'Authorization': f'JWT {self.token_auth}'}
 
         try:
             response = requests.post(f'{self.base_url}/exchange/user/orders/', json=data, headers=headers)
+
             response.raise_for_status()
 
-            # Распечатываем полученные цены
-            #prices_response = response.json()
-            #print(prices)
-            #print(len(prices[side]))
-            # prices = []
-            # for price in prices_response[side]:
-            #     prices.append(price['unit_price'])
-            
-            # return prices  
         except requests.exceptions.RequestException as e:
             print(f'Error getting current prices: {str(e)}')
             raise

@@ -22,13 +22,14 @@ while True:
     try:
         bot.analyze_market()
         if bot.activity.startswith('Buy'):
-            #print('Запускай код-логику для покупки актива пользователя')
+            print('Запускаю код-логику для покупки актива пользователя')
             bot.buy_asset()
         elif bot.activity.startswith('Sell'):
-            print('Запускай код-логику для продажи актива пользователю')
+            print('Запускаю код-логику для продажи актива пользователю')
+            bot.sell_asset()
         else:
-            print('Запускай код-логику для созданий ордера на продажу/покупку актива через свой оборот')
-
+            print('Запускаю код-логику для созданий ордера на продажу/покупку актива через свой оборот')
+            bot.buy_sell_youself(float(currency_price), trading_pair)
     except Exception as e:
         log_to_file(f'Error: {str(e)}')
         
