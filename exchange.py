@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 import requests 
 
+from logger import logger
 
 load_dotenv()
 
@@ -42,23 +43,25 @@ class Exchange:
                 response_token_verify = requests.post(f'{self.base_url}/token/verify/', json=token_verify, headers=headers)
 
                 response_token_verify.raise_for_status()
-                print(f'Token is valid {response_token_verify.text}')
+                logger.info(f'Token is valid {response_token_verify.text}')
             except Exception as e:
                 # Print an error message with a response code, if available
                 status_code = getattr(e, 'response', None)
-                print(status_code)
+                logger.info(status_code)
                 if status_code is not None:
-                    print(f'Authentication failed: {str(e)}, Status code: {status_code}')
+                    logger.error(f'Authentication failed: {str(e)}, Status code: {status_code}')
                 else:
-                    raise Exception(f'Authentication failed: {str(e)}')
+                    logger.error(f'Authentication failed: {str(e)}')
+                    raise
         except Exception as e:
             # Print an error message with a response code, if available
             status_code = getattr(e, 'response', None)
-            print(status_code)
+            logger.info(status_code)
             if status_code is not None:
-                print(f'Authentication failed: {str(e)}, Status code: {status_code}')
+                logger.error(f'Authentication failed: {str(e)}, Status code: {status_code}')
             else:
-                raise Exception(f'Authentication failed: {str(e)}')
+                logger.error(f'Authentication failed: {str(e)}')
+                raise
 
     
             
@@ -84,7 +87,7 @@ class Exchange:
             
             return prices  
         except requests.exceptions.RequestException as e:
-            print(f'Error getting current prices: {str(e)}')
+            logger.error(f'Error getting current prices: {str(e)}')
             raise
         
     def place_order(self, amount, unit_price, currency_pair, type):
@@ -99,13 +102,13 @@ class Exchange:
             response.raise_for_status()
 
         except requests.exceptions.RequestException as e:
-            print(f'Error getting current prices: {str(e)}')
+            logger.error(f'Error getting current prices: {str(e)}')
             raise
 
-    def get_my_balance(self):
+    def get_my_balance(self, current):
         # Getting personal balance
             
-        params = {"currency": {"abbreviation": self.base_currency}}
+        params = {"currency": {"abbreviation": current}}
 
         headers = {'Content-Type': 'application/json', 'Authorization': f'JWT {self.token_auth}'}
 
@@ -115,16 +118,15 @@ class Exchange:
             response.raise_for_status()
 
             balance_response = response.json()
-            #print(type(balance_response))
+            
 
             currency_count = ""
             for currency in balance_response:
-                if currency['currency']['abbreviation'] == 'KUB':
+                if currency['currency']['abbreviation'] == current:
                     currency_count = currency['active_balance']
-                    print(currency_count)
                     return currency_count
                 else:
                     continue
         except requests.exceptions.RequestException as e:
-            print(f'Error getting current prices: {str(e)}')
+            logger.error(f'Error getting current prices: {str(e)}')
             raise
