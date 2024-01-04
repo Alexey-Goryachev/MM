@@ -30,7 +30,7 @@ def main(currency_price, trading_pair):
                 status = bot.sell_asset()
             else:
                 logger.info('Start code logic for creating an order to sell/buy an asset through your turnover')
-                bot.buy_sell_youself(float(currency_price), trading_pair)
+                status = bot.buy_sell_youself(float(currency_price), trading_pair)
 
             if status == "break":
                 logger.info(f'Good bye, top up your balance and restart')

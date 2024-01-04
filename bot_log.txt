@@ -610,3 +610,73 @@
 2024-01-03 16:10:22,401 - INFO - Order selling yourself create
 2024-01-03 16:11:22,792 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
 2024-01-03 16:11:24,363 - INFO - Order selling yourself create
+2024-01-03 16:12:24,788 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-03 16:12:25,226 - INFO - Order buying yourself create
+2024-01-03 16:13:25,600 - INFO - Start code logic for selling a user asset
+2024-01-03 16:13:26,700 - INFO - My balance in KUB = 13.43
+2024-01-03 16:13:26,700 - INFO - My balance for trade in KUB = 6.71
+2024-01-03 16:13:26,882 - INFO - {'volume': '1.49', 'unit_price': '2.52', 'sum': '3.75', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-03 16:13:27,504 - INFO - Order selling yourself create
+2024-01-03 16:14:27,913 - INFO - Start code logic for selling a user asset
+2024-01-03 16:14:28,886 - INFO - My balance in KUB = 13.43
+2024-01-03 16:14:28,886 - INFO - My balance for trade in KUB = 6.71
+2024-01-03 16:14:29,054 - INFO - {'volume': '1.44', 'unit_price': '2.52', 'sum': '3.62', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-03 16:14:29,357 - INFO - Order buying yourself create
+2024-01-03 16:15:29,757 - INFO - Start code logic for selling a user asset
+2024-01-03 16:15:30,651 - INFO - My balance in KUB = 13.43
+2024-01-03 16:15:30,651 - INFO - My balance for trade in KUB = 6.71
+2024-01-03 16:15:30,842 - INFO - {'volume': '2.80', 'unit_price': '2.52', 'sum': '7.05', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-03 16:15:31,184 - INFO - Order buying yourself create
+2024-01-03 16:16:32,154 - INFO - Start code logic for selling a user asset
+2024-01-03 16:16:33,533 - INFO - My balance in KUB = 13.43
+2024-01-03 16:16:33,533 - INFO - My balance for trade in KUB = 6.71
+2024-01-03 16:16:33,757 - INFO - {'volume': '2.80', 'unit_price': '2.52', 'sum': '7.05', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-03 16:16:34,456 - INFO - Order selling yourself create
+2024-01-03 16:17:34,895 - INFO - Start code logic for selling a user asset
+2024-01-03 16:17:36,336 - INFO - My balance in KUB = 13.43
+2024-01-03 16:17:36,336 - INFO - My balance for trade in KUB = 6.71
+2024-01-03 16:17:36,567 - INFO - {'volume': '2.27', 'unit_price': '2.52', 'sum': '5.72', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-03 16:17:37,333 - INFO - Order buying yourself create
+2024-01-03 16:18:37,694 - INFO - Start code logic for selling a user asset
+2024-01-03 16:18:39,482 - INFO - My balance in KUB = 13.43
+2024-01-03 16:18:39,482 - INFO - My balance for trade in KUB = 6.71
+2024-01-03 16:18:39,680 - INFO - {'volume': '2.27', 'unit_price': '2.52', 'sum': '5.72', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-03 16:18:40,092 - INFO - Order buying yourself create
+2024-01-03 16:19:40,446 - INFO - Start code logic for selling a user asset
+2024-01-03 16:19:41,299 - INFO - My balance in KUB = 13.43
+2024-01-03 16:19:41,299 - INFO - My balance for trade in KUB = 6.71
+2024-01-03 16:19:41,479 - INFO - {'volume': '4.21', 'unit_price': '2.52', 'sum': '10.60', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-03 16:19:42,846 - INFO - Order selling yourself create
+2024-01-03 16:20:43,445 - INFO - Start code logic for selling a user asset
+2024-01-03 16:20:44,301 - INFO - My balance in KUB = 13.42
+2024-01-03 16:20:44,301 - INFO - My balance for trade in KUB = 6.71
+2024-01-03 16:20:44,495 - INFO - {'volume': '2.86', 'unit_price': '2.52', 'sum': '7.20', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-03 16:20:45,094 - INFO - Order selling yourself create
+2024-01-03 16:21:45,553 - INFO - Start code logic for selling a user asset
+2024-01-03 16:21:46,747 - INFO - My balance in KUB = 13.42
+2024-01-03 16:21:46,748 - INFO - My balance for trade in KUB = 6.71
+2024-01-03 16:21:46,938 - INFO - {'volume': '2.25', 'unit_price': '2.52', 'sum': '5.67', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-03 16:21:47,942 - INFO - Order selling yourself create
+2024-01-03 16:22:48,355 - INFO - Start code logic for selling a user asset
+2024-01-03 16:22:49,172 - INFO - My balance in KUB = 13.42
+2024-01-03 16:22:49,172 - INFO - My balance for trade in KUB = 6.71
+2024-01-03 16:22:49,336 - INFO - {'volume': '1.72', 'unit_price': '2.52', 'sum': '4.33', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-03 16:22:49,815 - INFO - Order buying yourself create
+2024-01-03 16:23:50,436 - INFO - Start code logic for selling a user asset
+2024-01-03 16:23:51,649 - INFO - My balance in KUB = 13.42
+2024-01-03 16:23:51,649 - INFO - My balance for trade in KUB = 6.71
+2024-01-03 16:23:51,851 - INFO - {'volume': '1.23', 'unit_price': '2.53', 'sum': '3.11', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-03 16:23:52,282 - INFO - Order buying yourself create
+2024-01-03 16:24:52,668 - INFO - Start code logic for selling a user asset
+2024-01-03 16:24:53,480 - INFO - My balance in KUB = 13.42
+2024-01-03 16:24:53,481 - INFO - My balance for trade in KUB = 6.71
+2024-01-03 16:24:53,646 - INFO - {'volume': '2.40', 'unit_price': '2.53', 'sum': '6.07', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-03 16:24:54,522 - INFO - Order selling yourself create
+2024-01-04 10:43:36,082 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNDQ0NDIxNSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDQzNTc4MTV9.BM8weiippSsjko3nxEylHTYX7vzZlJ0U_H0T5qpMzpY"}
+2024-01-04 10:43:36,452 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-04 10:43:37,028 - INFO - Order selling yourself create
+2024-01-04 10:43:37,028 - ERROR - Error: local variable 'status' referenced before assignment
+2024-01-04 10:45:34,619 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNDQ0NDMzNCwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDQzNTc5MzR9.yvHLH_0edRut6xJucgphr8FSL8FE_uT0US0lUk46gy0"}
+2024-01-04 10:45:34,994 - INFO - Start code logic for buying a user asset
+2024-01-04 10:45:36,041 - INFO - My balance in UAH = 252.10
+2024-01-04 10:45:36,210 - INFO - {'volume': '1.26', 'unit_price': '2.48', 'sum': '3.12', 'side': 'selling', 'pair': 'KUB/UAH'}
