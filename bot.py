@@ -37,7 +37,8 @@ class Bot(Exchange):
         currency = os.environ.get('BASE_MONEY')
         my_balance = self.get_my_balance(currency)
         logger.info(f"My balance in {currency} = {my_balance}")
-        if float(my_balance) > 5:
+        limit_for_end_bot = os.environ.get('LIMIT_FOR_END_BOT')
+        if float(my_balance) > float(limit_for_end_bot):
             self.get_current_prices(side='selling')
             order = self.prices_response['selling'][0]
             logger.info(order) 
@@ -54,7 +55,8 @@ class Bot(Exchange):
         balance_for_trade = round(float(my_balance) * 0.5, 2)
         logger.info(f"My balance in {self.base_currency} = {my_balance}")
         logger.info(f"My balance for trade in {self.base_currency} = {balance_for_trade}")
-        if float(my_balance) > 5:
+        limit_for_end_bot = os.environ.get('LIMIT_FOR_END_BOT')
+        if float(my_balance) > float(limit_for_end_bot):
             self.buyings = self.get_current_prices(side='buying')
             order = self.prices_response['buying'][0]
             logger.info(order) 
@@ -62,13 +64,13 @@ class Bot(Exchange):
                 self.place_order(round(random.uniform(0, balance_for_trade), 2), order['unit_price'], order['pair'], type='selling')
             else:
                 self.buy_sell_youself(float(self.currency_price), self.trading_pair)
-            #self.place_order(round(random.uniform(0, balance_for_trade), 2), order['unit_price'], order['pair'], type='selling')
+            
           
         else:
             logger.warning(f'My balance {currency} lower, then minimum. Top up your balance ')
             return  "break"
 
-        #self.place_order(order['volume'], order['unit_price'], order['pair'], type='selling')
+    
         
     def buy_sell_youself(self, unit_price, currency_pair):
         # Buying/selling an asset itself
