@@ -77,7 +77,7 @@ class Bot(Exchange):
         
     def buy_sell_youself(self, unit_price, currency_pair):
         # Buying/selling an asset itself
-        limit = os.environ.get('LIMIT_TRADE')
+        limit = os.environ.get('BASE_ORDER_LIMIT')
         type = random.choice(['selling', 'buying'])
         limit_price = os.environ.get('DEVIATION')
         
