@@ -39,7 +39,7 @@ def main(currency_price, trading_pair):
             logger.error(f'Error: {str(e)}')
                 
         #Some pause for don't over load exchange requests 
-        sleep(60)
+        sleep(20)
      
 if __name__ == "__main__":
     main(currency_price, trading_pair)

@@ -102,8 +102,8 @@ class Exchange:
             response.raise_for_status()
 
         except requests.exceptions.RequestException as e:
-            logger.error(f'Error getting current prices: {str(e)}')
-            raise
+            logger.error(f'Error place_order {type}: {str(e)}')
+            return f'Error place_order {type}: {str(e)}'
 
     def get_my_balance(self, current):
         # Getting personal balance
@@ -128,5 +128,5 @@ class Exchange:
                 else:
                     continue
         except requests.exceptions.RequestException as e:
-            logger.error(f'Error getting current prices: {str(e)}')
+            logger.error(f'Error get my balance: {str(e)}')
             raise
