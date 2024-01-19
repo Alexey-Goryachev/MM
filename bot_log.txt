@@ -1682,3 +1682,90 @@
 2024-01-18 23:21:33,337 - INFO - {'volume': '0.03', 'unit_price': '2.48', 'sum': '0.07', 'side': 'buying', 'pair': 'KUB/UAH'}
 2024-01-18 23:21:54,215 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
 2024-01-18 23:21:54,531 - ERROR - Error: 'NoneType' object has no attribute 'startswith'
+2024-01-19 15:46:01,539 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc1ODM2MSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzE5NjF9.d-9ZxVJU_tunVeMF9i9TcC-y5VbV5bEI-qoPDepKKN0"}
+2024-01-19 15:46:01,965 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:46:02,806 - INFO - Order buying yourself create
+2024-01-19 15:46:23,192 - INFO - Start code logic for selling a user asset
+2024-01-19 15:46:24,119 - INFO - My balance in KUB = 0.23
+2024-01-19 15:46:24,332 - INFO - {'volume': '0.02', 'unit_price': '2.47', 'sum': '0.04', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-19 15:46:45,239 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:46:45,544 - INFO - Order selling yourself create
+2024-01-19 15:47:14,801 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc1ODQzNCwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzIwMzR9.LB5XOVxV15n60itZYf8jOJY2pCjd5S-btIbdhwWglpQ"}
+2024-01-19 15:47:15,287 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:47:15,457 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:47:15,457 - INFO - Order buying yourself create
+2024-01-19 15:47:36,106 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:47:36,307 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:47:36,322 - INFO - Order buying yourself create
+2024-01-19 15:47:56,819 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:47:56,990 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:47:57,195 - ERROR - Error place_order selling: 503 Server Error: Service Unavailable for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:48:17,579 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:48:17,755 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:48:17,755 - INFO - Order buying yourself create
+2024-01-19 15:54:31,579 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc1ODg3MSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzI0NzF9.PFiJUdOgXBR_3kgnUw7SY95BYte0d9ihNfMAEpL3c58"}
+2024-01-19 15:54:32,096 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:54:32,283 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:54:32,422 - ERROR - Error place_order selling: 503 Server Error: Service Unavailable for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:54:52,900 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:54:53,134 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:54:53,134 - INFO - Order buying yourself create
+2024-01-19 15:58:37,738 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc1OTExNywiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzI3MTd9.n_3s5ptJddDGoBlG123oblJVpzUvwfUaFuv_iNaOsLw"}
+2024-01-19 15:58:38,172 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:58:38,373 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:58:38,506 - ERROR - Error place_order selling: 503 Server Error: Service Unavailable for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:58:58,990 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:58:59,194 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:58:59,333 - ERROR - Error place_order selling: 503 Server Error: Service Unavailable for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:59:19,801 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:59:19,956 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:59:20,102 - ERROR - Error place_order selling: 503 Server Error: Service Unavailable for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:59:40,769 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:59:40,932 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:59:40,935 - INFO - Order buying yourself create
+2024-01-19 16:00:01,360 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:00:01,565 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:00:01,581 - INFO - Order buying yourself create
+2024-01-19 16:02:19,950 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc1OTMzOSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzI5Mzl9.f1HnmJ9m_u_BZZQOzb0UxPGROirzI0fZRwaxk9Harus"}
+2024-01-19 16:02:20,444 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:02:20,607 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:02:20,607 - INFO - Order buying yourself create
+2024-01-19 16:02:41,083 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:02:41,601 - INFO - Order selling yourself create
+2024-01-19 16:03:02,006 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:03:02,205 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:03:02,205 - INFO - Order buying yourself create
+2024-01-19 16:03:22,690 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:03:22,870 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:03:43,316 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:03:43,506 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:03:43,506 - INFO - Order buying yourself create
+2024-01-19 16:08:06,762 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc1OTY4NiwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzMyODZ9.33bp4EB9oX6PhpbjLvDsvUs1ywYiU7Du4J2vZUwJecs"}
+2024-01-19 16:08:07,191 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:08:07,375 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:08:27,781 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:08:27,972 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:08:48,447 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:08:48,654 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:09:09,052 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:09:09,256 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:14:43,351 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc2MDA4MywiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzM2ODN9.pl7i6tg89jbVCu4lQuRynvAJ_w2ec2WM17jTMRGL8ds"}
+2024-01-19 16:14:43,731 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:14:43,901 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:16:52,651 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc2MDIxMiwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzM4MTJ9.IEX-bNkuPNjMKpan4ZhpG1JuSu4O2WInFoZPLcON454"}
+2024-01-19 16:16:53,134 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:16:53,494 - INFO - Order buying yourself create
+2024-01-19 16:17:25,084 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc2MDI0NCwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzM4NDR9.kuqjSQTdu457VsU_usC-7dLdFmkhX2p8nfkHZH9tq8c"}
+2024-01-19 16:17:25,503 - INFO - Start code logic for selling a user asset
+2024-01-19 16:17:26,773 - INFO - My balance in KUB = 0.23
+2024-01-19 16:17:26,955 - INFO - {'volume': '0.12', 'unit_price': '2.46', 'sum': '0.29', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-19 16:17:38,151 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:17:38,629 - INFO - Order buying yourself create
+2024-01-19 16:17:49,165 - INFO - Start code logic for selling a user asset
+2024-01-19 16:17:50,625 - INFO - My balance in KUB = 0.23
+2024-01-19 16:17:50,845 - INFO - {'volume': '0.15', 'unit_price': '2.47', 'sum': '0.37', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-19 16:18:01,828 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:18:02,221 - INFO - Order buying yourself create
+2024-01-19 16:18:12,598 - INFO - Start code logic for selling a user asset
+2024-01-19 16:18:13,480 - INFO - My balance in KUB = 0.23
+2024-01-19 16:18:13,671 - INFO - {'volume': '0.07', 'unit_price': '2.47', 'sum': '0.17', 'side': 'buying', 'pair': 'KUB/UAH'}
