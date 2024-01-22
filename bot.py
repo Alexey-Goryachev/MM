@@ -81,7 +81,7 @@ class Bot(Exchange):
             # If the type is selling, set the price slightly higher than the current one
             price_variation = round(random.uniform(0, float(limit_price)), int(os.environ.get('BASE_PRECISION')))
             unt_price = round(unit_price - price_variation, int(os.environ.get('BASE_PRECISION')))
-            if self.place_order(amount=amount, unit_price=unt_price, currency_pair=currency_pair, type=type) is None:
+            if self.place_order(amount=str(amount), unit_price=str(unt_price), currency_pair=currency_pair, type=type) is None:
                 logger.info(f"Order {type} yourself create")
 
 
@@ -90,5 +90,5 @@ class Bot(Exchange):
             price_variation = round(random.uniform(0, float(limit_price)), int(os.environ.get('BASE_PRECISION')))
             unt_price = round(unit_price + price_variation, int(os.environ.get('BASE_PRECISION')))
 
-            if self.place_order(amount=amount, unit_price=unt_price, currency_pair=currency_pair, type=type) is None:
+            if self.place_order(amount=str(amount), unit_price=str(unt_price), currency_pair=currency_pair, type=type) is None:
                 logger.info(f"Order {type} yourself create")
