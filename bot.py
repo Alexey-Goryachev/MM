@@ -79,16 +79,21 @@ class Bot(Exchange):
         
         if type == 'selling':
             # If the type is selling, set the price slightly higher than the current one
-            price_variation = round(random.uniform(0, float(limit_price)), int(os.environ.get('BASE_PRECISION')))
-            unt_price = round(unit_price - price_variation, int(os.environ.get('BASE_PRECISION')))
+            price_variation = round(random.uniform(0, float(limit_price)), int(os.environ.get('QUOTE_PRECISION')))
+            unt_price = round(unit_price - price_variation, int(os.environ.get('QUOTE_PRECISION')))
             if self.place_order(amount=str(amount), unit_price=str(unt_price), currency_pair=currency_pair, type=type) is None:
                 logger.info(f"Order {type} yourself create")
-
+                self.get_current_prices(side='selling')
+                order = self.prices_response['selling'][0]
+                logger.info(order) 
 
         elif type == 'buying':
             # If the type is buying, set the price slightly lower than the current one
-            price_variation = round(random.uniform(0, float(limit_price)), int(os.environ.get('BASE_PRECISION')))
-            unt_price = round(unit_price + price_variation, int(os.environ.get('BASE_PRECISION')))
+            price_variation = round(random.uniform(0, float(limit_price)), int(os.environ.get('QUOTE_PRECISION')))
+            unt_price = round(unit_price + price_variation, int(os.environ.get('QUOTE_PRECISION')))
 
             if self.place_order(amount=str(amount), unit_price=str(unt_price), currency_pair=currency_pair, type=type) is None:
                 logger.info(f"Order {type} yourself create")
+                self.buyings = self.get_current_prices(side='buying')
+                order = self.prices_response['buying'][0]
+                logger.info(order)
