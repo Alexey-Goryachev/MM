@@ -1056,3 +1056,787 @@
 2024-01-04 13:21:00,212 - INFO - My balance in UAH = 4.86
 2024-01-04 13:21:00,212 - WARNING - My balance UAH lower, then minimum. Top up your balance 
 2024-01-04 13:21:00,212 - INFO - Good bye, top up your balance and restart
+2024-01-16 09:47:23,788 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTQ3NzY0MywiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDUzOTEyNDN9.hpePDCLEDtRl4YUEs9BLwGaDDHpiOshPt9v0udOm4h4"}
+2024-01-16 09:47:24,096 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 09:47:24,238 - ERROR - Error getting current prices: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-16 09:47:24,239 - ERROR - Error: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-16 11:04:59,216 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTQ4MjI5OSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDUzOTU4OTl9.HE07isQ3D9--iEU5aMT7bmQLrgop5VJWFJMyJ6n5mbs"}
+2024-01-16 11:04:59,597 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 11:05:00,116 - INFO - Order buying yourself create
+2024-01-16 11:06:00,496 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 11:06:00,864 - INFO - Order buying yourself create
+2024-01-16 11:07:01,879 - INFO - Start code logic for selling a user asset
+2024-01-16 11:07:03,204 - INFO - My balance in KUB = 83.69
+2024-01-16 11:07:03,204 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:07:03,361 - INFO - {'volume': '0.63', 'unit_price': '2.43', 'sum': '1.53', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:07:03,717 - INFO - Order buying yourself create
+2024-01-16 11:08:04,087 - INFO - Start code logic for selling a user asset
+2024-01-16 11:08:05,097 - INFO - My balance in KUB = 83.69
+2024-01-16 11:08:05,098 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:08:05,267 - INFO - {'volume': '0.63', 'unit_price': '2.43', 'sum': '1.53', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:08:06,279 - INFO - Order selling yourself create
+2024-01-16 11:09:06,719 - INFO - Start code logic for selling a user asset
+2024-01-16 11:09:07,591 - INFO - My balance in KUB = 83.68
+2024-01-16 11:09:07,591 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:09:07,833 - INFO - {'volume': '0.76', 'unit_price': '2.42', 'sum': '1.83', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:09:08,124 - INFO - Order buying yourself create
+2024-01-16 11:10:08,551 - INFO - Start code logic for selling a user asset
+2024-01-16 11:10:09,586 - INFO - My balance in KUB = 83.68
+2024-01-16 11:10:09,586 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:10:09,775 - INFO - {'volume': '0.76', 'unit_price': '2.42', 'sum': '1.83', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:10:10,120 - INFO - Order buying yourself create
+2024-01-16 11:11:10,593 - INFO - Start code logic for selling a user asset
+2024-01-16 11:11:11,500 - INFO - My balance in KUB = 83.68
+2024-01-16 11:11:11,500 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:11:11,700 - INFO - {'volume': '0.76', 'unit_price': '2.42', 'sum': '1.83', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:11:12,157 - INFO - Order buying yourself create
+2024-01-16 11:12:12,564 - INFO - Start code logic for selling a user asset
+2024-01-16 11:12:13,622 - INFO - My balance in KUB = 83.68
+2024-01-16 11:12:13,623 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:12:13,880 - INFO - {'volume': '1.35', 'unit_price': '2.42', 'sum': '3.26', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:12:14,460 - INFO - Order buying yourself create
+2024-01-16 11:13:14,860 - INFO - Start code logic for selling a user asset
+2024-01-16 11:13:15,797 - INFO - My balance in KUB = 83.68
+2024-01-16 11:13:15,797 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:13:16,079 - INFO - {'volume': '1.35', 'unit_price': '2.42', 'sum': '3.26', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:13:16,503 - INFO - Order buying yourself create
+2024-01-16 11:14:16,989 - INFO - Start code logic for selling a user asset
+2024-01-16 11:14:18,509 - INFO - My balance in KUB = 83.68
+2024-01-16 11:14:18,509 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:14:18,698 - INFO - {'volume': '1.93', 'unit_price': '2.43', 'sum': '4.68', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:14:19,093 - INFO - Order buying yourself create
+2024-01-16 11:15:19,426 - INFO - Start code logic for selling a user asset
+2024-01-16 11:15:20,462 - INFO - My balance in KUB = 83.68
+2024-01-16 11:15:20,462 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:15:20,658 - INFO - {'volume': '1.93', 'unit_price': '2.43', 'sum': '4.68', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:15:21,011 - INFO - Order buying yourself create
+2024-01-16 11:16:21,377 - INFO - Start code logic for selling a user asset
+2024-01-16 11:16:22,272 - INFO - My balance in KUB = 83.68
+2024-01-16 11:16:22,272 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:16:22,458 - INFO - {'volume': '1.93', 'unit_price': '2.43', 'sum': '4.68', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:16:22,759 - INFO - Order buying yourself create
+2024-01-16 11:17:23,128 - INFO - Start code logic for selling a user asset
+2024-01-16 11:17:24,100 - INFO - My balance in KUB = 83.68
+2024-01-16 11:17:24,100 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:17:24,303 - INFO - {'volume': '2.38', 'unit_price': '2.43', 'sum': '5.78', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:17:25,157 - INFO - Order selling yourself create
+2024-01-16 11:18:25,494 - INFO - Start code logic for selling a user asset
+2024-01-16 11:18:26,605 - INFO - My balance in KUB = 83.68
+2024-01-16 11:18:26,605 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:18:26,785 - INFO - {'volume': '0.67', 'unit_price': '2.43', 'sum': '1.62', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:18:27,800 - INFO - Order selling yourself create
+2024-01-16 11:19:28,273 - INFO - Start code logic for selling a user asset
+2024-01-16 11:19:29,292 - INFO - My balance in KUB = 83.68
+2024-01-16 11:19:29,292 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:19:29,514 - INFO - {'volume': '0.26', 'unit_price': '2.43', 'sum': '0.63', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:19:29,981 - INFO - Order buying yourself create
+2024-01-16 11:20:30,392 - INFO - Start code logic for selling a user asset
+2024-01-16 11:20:31,360 - INFO - My balance in KUB = 83.68
+2024-01-16 11:20:31,360 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:20:31,549 - INFO - {'volume': '0.26', 'unit_price': '2.43', 'sum': '0.63', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:20:32,372 - INFO - Order selling yourself create
+2024-01-16 11:21:32,800 - INFO - Start code logic for selling a user asset
+2024-01-16 11:21:33,817 - INFO - My balance in KUB = 83.68
+2024-01-16 11:21:33,817 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:21:34,009 - INFO - {'volume': '1.07', 'unit_price': '2.42', 'sum': '2.58', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:21:35,477 - INFO - Order selling yourself create
+2024-01-16 11:22:35,933 - INFO - Start code logic for selling a user asset
+2024-01-16 11:22:36,703 - INFO - My balance in KUB = 83.68
+2024-01-16 11:22:36,703 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:22:36,894 - INFO - {'volume': '0.02', 'unit_price': '2.42', 'sum': '0.04', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:22:38,041 - INFO - Order selling yourself create
+2024-01-16 11:23:38,461 - INFO - Start code logic for selling a user asset
+2024-01-16 11:23:42,175 - INFO - My balance in KUB = 83.67
+2024-01-16 11:23:42,176 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:23:42,350 - INFO - {'volume': '1.62', 'unit_price': '2.41', 'sum': '3.90', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:23:43,377 - INFO - Order selling yourself create
+2024-01-16 11:24:43,796 - INFO - Start code logic for selling a user asset
+2024-01-16 11:24:44,870 - INFO - My balance in KUB = 83.67
+2024-01-16 11:24:44,870 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:24:45,053 - INFO - {'volume': '1.23', 'unit_price': '2.41', 'sum': '2.96', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:24:46,119 - INFO - Order selling yourself create
+2024-01-16 11:25:47,535 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 11:25:47,881 - INFO - Order buying yourself create
+2024-01-16 11:26:48,265 - INFO - Start code logic for selling a user asset
+2024-01-16 11:26:49,193 - INFO - My balance in KUB = 83.67
+2024-01-16 11:26:49,193 - INFO - My balance for trade in KUB = 41.84
+2024-01-16 11:26:49,367 - INFO - {'volume': '0.44', 'unit_price': '2.41', 'sum': '1.06', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:26:50,664 - INFO - Order selling yourself create
+2024-01-16 11:27:51,762 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 11:27:52,704 - INFO - Order selling yourself create
+2024-01-16 11:28:53,149 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 11:28:53,604 - INFO - Order buying yourself create
+2024-01-16 11:29:54,026 - INFO - Start code logic for selling a user asset
+2024-01-16 11:29:55,344 - INFO - My balance in KUB = 83.66
+2024-01-16 11:29:55,354 - INFO - My balance for trade in KUB = 41.83
+2024-01-16 11:29:55,576 - INFO - {'volume': '67.14', 'unit_price': '2.45', 'sum': '164.50', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:29:56,598 - INFO - Order selling yourself create
+2024-01-16 11:31:55,503 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTQ4MzkxNSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDUzOTc1MTV9.G81z-PA1nbvP2lNgdT5E6bEwuaIOc26owfwpqN-CfEA"}
+2024-01-16 11:31:55,880 - INFO - Start code logic for selling a user asset
+2024-01-16 11:31:56,866 - INFO - My balance in KUB = 82.62
+2024-01-16 11:31:56,866 - INFO - My balance for trade in KUB = 41.31
+2024-01-16 11:31:57,077 - INFO - {'volume': '66.10', 'unit_price': '2.45', 'sum': '161.95', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:31:57,454 - INFO - Order buying yourself create
+2024-01-16 11:32:57,940 - INFO - Start code logic for selling a user asset
+2024-01-16 11:32:59,041 - INFO - My balance in KUB = 82.62
+2024-01-16 11:32:59,041 - INFO - My balance for trade in KUB = 41.31
+2024-01-16 11:32:59,232 - INFO - {'volume': '66.10', 'unit_price': '2.45', 'sum': '161.95', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:32:59,974 - INFO - Order selling yourself create
+2024-01-16 11:34:00,378 - INFO - Start code logic for selling a user asset
+2024-01-16 11:34:01,602 - INFO - My balance in KUB = 82.24
+2024-01-16 11:34:01,603 - INFO - My balance for trade in KUB = 41.12
+2024-01-16 11:34:01,861 - INFO - {'volume': '65.72', 'unit_price': '2.45', 'sum': '161.02', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:34:02,247 - INFO - Order buying yourself create
+2024-01-16 11:35:02,733 - INFO - Start code logic for selling a user asset
+2024-01-16 11:35:03,619 - INFO - My balance in KUB = 82.24
+2024-01-16 11:35:03,619 - INFO - My balance for trade in KUB = 41.12
+2024-01-16 11:35:03,841 - INFO - {'volume': '65.72', 'unit_price': '2.45', 'sum': '161.02', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:35:04,178 - INFO - Order buying yourself create
+2024-01-16 11:36:04,550 - INFO - Start code logic for selling a user asset
+2024-01-16 11:36:05,358 - INFO - My balance in KUB = 82.24
+2024-01-16 11:36:05,358 - INFO - My balance for trade in KUB = 41.12
+2024-01-16 11:36:05,538 - INFO - {'volume': '65.72', 'unit_price': '2.45', 'sum': '161.02', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:36:06,386 - INFO - Order selling yourself create
+2024-01-16 11:37:06,725 - INFO - Start code logic for selling a user asset
+2024-01-16 11:37:07,607 - INFO - My balance in KUB = 80.48
+2024-01-16 11:37:07,607 - INFO - My balance for trade in KUB = 40.24
+2024-01-16 11:37:07,780 - INFO - {'volume': '63.96', 'unit_price': '2.45', 'sum': '156.71', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:37:08,106 - INFO - Order buying yourself create
+2024-01-16 11:38:08,452 - INFO - Start code logic for selling a user asset
+2024-01-16 11:38:09,388 - INFO - My balance in KUB = 80.48
+2024-01-16 11:38:09,389 - INFO - My balance for trade in KUB = 40.24
+2024-01-16 11:38:09,605 - INFO - {'volume': '63.96', 'unit_price': '2.45', 'sum': '156.71', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:38:10,069 - INFO - Order buying yourself create
+2024-01-16 11:39:10,452 - INFO - Start code logic for selling a user asset
+2024-01-16 11:39:11,538 - INFO - My balance in KUB = 80.48
+2024-01-16 11:39:11,538 - INFO - My balance for trade in KUB = 40.24
+2024-01-16 11:39:11,743 - INFO - {'volume': '63.96', 'unit_price': '2.45', 'sum': '156.71', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:39:12,117 - INFO - Order buying yourself create
+2024-01-16 11:40:12,544 - INFO - Start code logic for selling a user asset
+2024-01-16 11:40:13,564 - INFO - My balance in KUB = 80.48
+2024-01-16 11:40:13,564 - INFO - My balance for trade in KUB = 40.24
+2024-01-16 11:40:13,840 - INFO - {'volume': '63.96', 'unit_price': '2.45', 'sum': '156.71', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:40:14,601 - INFO - Order selling yourself create
+2024-01-16 11:41:14,962 - INFO - Start code logic for selling a user asset
+2024-01-16 11:41:15,994 - INFO - My balance in KUB = 80.17
+2024-01-16 11:41:15,995 - INFO - My balance for trade in KUB = 40.09
+2024-01-16 11:41:16,175 - INFO - {'volume': '63.65', 'unit_price': '2.45', 'sum': '155.95', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:41:17,174 - INFO - Order selling yourself create
+2024-01-16 11:42:17,550 - INFO - Start code logic for selling a user asset
+2024-01-16 11:42:18,642 - INFO - My balance in KUB = 79.11
+2024-01-16 11:42:18,642 - INFO - My balance for trade in KUB = 39.55
+2024-01-16 11:42:18,825 - INFO - {'volume': '62.59', 'unit_price': '2.45', 'sum': '153.35', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:42:19,267 - INFO - Order buying yourself create
+2024-01-16 11:43:19,687 - INFO - Start code logic for selling a user asset
+2024-01-16 11:43:20,641 - INFO - My balance in KUB = 79.11
+2024-01-16 11:43:20,641 - INFO - My balance for trade in KUB = 39.55
+2024-01-16 11:43:20,806 - INFO - {'volume': '62.59', 'unit_price': '2.45', 'sum': '153.35', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:43:21,173 - INFO - Order buying yourself create
+2024-01-16 11:44:21,562 - INFO - Start code logic for selling a user asset
+2024-01-16 11:44:22,670 - INFO - My balance in KUB = 79.11
+2024-01-16 11:44:22,670 - INFO - My balance for trade in KUB = 39.55
+2024-01-16 11:44:22,949 - INFO - {'volume': '62.59', 'unit_price': '2.45', 'sum': '153.35', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:44:23,374 - INFO - Order buying yourself create
+2024-01-16 11:45:23,870 - INFO - Start code logic for selling a user asset
+2024-01-16 11:45:24,870 - INFO - My balance in KUB = 79.11
+2024-01-16 11:45:24,870 - INFO - My balance for trade in KUB = 39.55
+2024-01-16 11:45:25,038 - INFO - {'volume': '62.59', 'unit_price': '2.45', 'sum': '153.35', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:45:25,555 - INFO - Order buying yourself create
+2024-01-16 11:46:25,935 - INFO - Start code logic for selling a user asset
+2024-01-16 11:46:26,785 - INFO - My balance in KUB = 79.11
+2024-01-16 11:46:26,785 - INFO - My balance for trade in KUB = 39.55
+2024-01-16 11:46:26,951 - INFO - {'volume': '62.59', 'unit_price': '2.45', 'sum': '153.35', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:46:27,285 - INFO - Order buying yourself create
+2024-01-16 11:47:27,678 - INFO - Start code logic for selling a user asset
+2024-01-16 11:47:28,566 - INFO - My balance in KUB = 79.11
+2024-01-16 11:47:28,566 - INFO - My balance for trade in KUB = 39.55
+2024-01-16 11:47:28,827 - INFO - {'volume': '62.59', 'unit_price': '2.45', 'sum': '153.35', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:47:29,568 - INFO - Order selling yourself create
+2024-01-16 11:48:29,966 - INFO - Start code logic for selling a user asset
+2024-01-16 11:48:30,766 - INFO - My balance in KUB = 79.05
+2024-01-16 11:48:30,766 - INFO - My balance for trade in KUB = 39.52
+2024-01-16 11:48:30,948 - INFO - {'volume': '62.53', 'unit_price': '2.45', 'sum': '153.21', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:48:31,433 - INFO - Order buying yourself create
+2024-01-16 11:49:31,786 - INFO - Start code logic for selling a user asset
+2024-01-16 11:49:32,479 - INFO - My balance in KUB = 79.05
+2024-01-16 11:49:32,479 - INFO - My balance for trade in KUB = 39.52
+2024-01-16 11:49:32,737 - INFO - {'volume': '62.53', 'unit_price': '2.45', 'sum': '153.21', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:49:33,134 - INFO - Order buying yourself create
+2024-01-16 11:50:33,628 - INFO - Start code logic for selling a user asset
+2024-01-16 11:50:35,784 - INFO - My balance in KUB = 79.05
+2024-01-16 11:50:35,784 - INFO - My balance for trade in KUB = 39.52
+2024-01-16 11:50:36,059 - INFO - {'volume': '62.53', 'unit_price': '2.45', 'sum': '153.21', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:50:36,577 - INFO - Order buying yourself create
+2024-01-16 11:51:36,971 - INFO - Start code logic for selling a user asset
+2024-01-16 11:51:38,082 - INFO - My balance in KUB = 79.05
+2024-01-16 11:51:38,083 - INFO - My balance for trade in KUB = 39.52
+2024-01-16 11:51:38,290 - INFO - {'volume': '62.53', 'unit_price': '2.45', 'sum': '153.21', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:51:38,642 - INFO - Order buying yourself create
+2024-01-16 11:52:39,037 - INFO - Start code logic for selling a user asset
+2024-01-16 11:52:40,560 - INFO - My balance in KUB = 79.05
+2024-01-16 11:52:40,560 - INFO - My balance for trade in KUB = 39.52
+2024-01-16 11:52:40,757 - INFO - {'volume': '62.53', 'unit_price': '2.45', 'sum': '153.21', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 11:52:41,435 - INFO - Order selling yourself create
+2024-01-16 12:42:34,447 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTQ4ODE1NCwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU0MDE3NTR9.mpDflKefOHkXCBolg3csPKHJU3BpDFaj8bJoLi9uX-c"}
+2024-01-16 12:42:34,815 - INFO - Start code logic for selling a user asset
+2024-01-16 12:42:35,748 - INFO - My balance in KUB = 77.37
+2024-01-16 12:42:35,945 - INFO - {'volume': '60.85', 'unit_price': '2.45', 'sum': '149.09', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 12:43:37,014 - INFO - Start code logic for selling a user asset
+2024-01-16 12:43:37,831 - INFO - My balance in KUB = 16.52
+2024-01-16 12:43:37,831 - WARNING - My balance KUB lower, then minimum. Top up your balance 
+2024-01-16 12:43:37,831 - INFO - Good bye, top up your balance and restart
+2024-01-16 12:44:18,795 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTQ4ODI1OSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU0MDE4NTl9.DYrZO6fvcSTatpzk5Tp6SBlw5XdYKue5eiwxieI8Phw"}
+2024-01-16 12:44:19,192 - INFO - Start code logic for selling a user asset
+2024-01-16 12:44:19,929 - INFO - My balance in KUB = 16.52
+2024-01-16 12:44:20,126 - INFO - {'volume': '3.30', 'unit_price': '2.43', 'sum': '8.01', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 12:45:21,717 - INFO - Start code logic for selling a user asset
+2024-01-16 12:45:22,578 - INFO - My balance in KUB = 16.51
+2024-01-16 12:45:22,759 - INFO - {'volume': '6.42', 'unit_price': '2.42', 'sum': '15.53', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 12:46:24,765 - INFO - Start code logic for selling a user asset
+2024-01-16 12:46:25,578 - INFO - My balance in KUB = 16.50
+2024-01-16 12:46:25,741 - INFO - {'volume': '4.05', 'unit_price': '2.41', 'sum': '9.76', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 12:47:27,528 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 12:47:27,798 - INFO - Order buying yourself create
+2024-01-16 12:48:28,238 - INFO - Start code logic for selling a user asset
+2024-01-16 12:48:29,123 - INFO - My balance in KUB = 16.49
+2024-01-16 12:48:29,376 - INFO - {'volume': '1.55', 'unit_price': '2.41', 'sum': '3.73', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 12:49:30,111 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 12:49:30,423 - INFO - Order buying yourself create
+2024-01-16 12:50:30,789 - INFO - Start code logic for selling a user asset
+2024-01-16 12:50:31,728 - INFO - My balance in KUB = 16.48
+2024-01-16 12:50:31,913 - INFO - {'volume': '0.35', 'unit_price': '2.41', 'sum': '0.84', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 12:51:32,851 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 12:51:33,182 - INFO - Order buying yourself create
+2024-01-16 12:52:33,564 - INFO - Start code logic for selling a user asset
+2024-01-16 12:52:34,415 - INFO - My balance in KUB = 16.48
+2024-01-16 12:52:34,880 - INFO - {'volume': '0.27', 'unit_price': '2.43', 'sum': '0.65', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 12:53:35,814 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 12:53:36,134 - INFO - Order buying yourself create
+2024-01-16 12:54:36,562 - INFO - Start code logic for selling a user asset
+2024-01-16 12:54:37,686 - INFO - My balance in KUB = 16.48
+2024-01-16 12:54:37,876 - INFO - {'volume': '0.19', 'unit_price': '2.42', 'sum': '0.45', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 12:55:38,646 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 12:55:38,983 - INFO - Order selling yourself create
+2024-01-16 12:56:39,338 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 12:56:39,891 - INFO - Order buying yourself create
+2024-01-16 12:57:40,332 - INFO - Start code logic for selling a user asset
+2024-01-16 12:57:41,102 - INFO - My balance in KUB = 15.28
+2024-01-16 12:57:41,281 - INFO - {'volume': '1.13', 'unit_price': '2.42', 'sum': '2.73', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 12:58:42,115 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 12:58:42,419 - INFO - Order buying yourself create
+2024-01-16 12:59:42,774 - INFO - Start code logic for selling a user asset
+2024-01-16 12:59:43,682 - INFO - My balance in KUB = 15.28
+2024-01-16 12:59:43,856 - INFO - {'volume': '0.36', 'unit_price': '2.41', 'sum': '0.86', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 13:00:44,725 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:00:45,073 - INFO - Order selling yourself create
+2024-01-16 13:01:45,439 - INFO - Start code logic for buying a user asset
+2024-01-16 13:01:46,305 - INFO - My balance in UAH = 259.87
+2024-01-16 13:01:46,477 - INFO - {'volume': '0.07', 'unit_price': '2.38', 'sum': '0.18', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 13:02:47,621 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:02:47,971 - INFO - Order buying yourself create
+2024-01-16 13:03:48,368 - INFO - Start code logic for selling a user asset
+2024-01-16 13:03:49,554 - INFO - My balance in KUB = 14.26
+2024-01-16 13:03:49,744 - INFO - {'volume': '0.69', 'unit_price': '2.41', 'sum': '1.66', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 13:04:50,496 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:04:50,824 - INFO - Order buying yourself create
+2024-01-16 13:05:51,177 - INFO - Start code logic for selling a user asset
+2024-01-16 13:05:52,265 - INFO - My balance in KUB = 14.26
+2024-01-16 13:05:52,456 - INFO - {'volume': '0.28', 'unit_price': '2.42', 'sum': '0.67', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 13:06:53,271 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:06:53,544 - INFO - Order selling yourself create
+2024-01-16 13:07:53,924 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:07:54,517 - INFO - Order buying yourself create
+2024-01-16 13:08:54,984 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:08:55,780 - INFO - Order buying yourself create
+2024-01-16 13:09:56,200 - INFO - Start code logic for selling a user asset
+2024-01-16 13:09:57,079 - INFO - My balance in KUB = 14.26
+2024-01-16 13:09:57,249 - INFO - {'volume': '0.29', 'unit_price': '2.41', 'sum': '0.69', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 13:10:58,116 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:10:58,502 - INFO - Order buying yourself create
+2024-01-16 13:11:58,908 - INFO - Start code logic for selling a user asset
+2024-01-16 13:11:59,894 - INFO - My balance in KUB = 14.26
+2024-01-16 13:12:00,085 - INFO - {'volume': '1.20', 'unit_price': '2.43', 'sum': '2.91', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 13:13:01,040 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:13:01,314 - INFO - Order selling yourself create
+2024-01-16 13:14:01,870 - INFO - Start code logic for buying a user asset
+2024-01-16 13:14:02,955 - INFO - My balance in UAH = 259.84
+2024-01-16 13:14:03,139 - INFO - {'volume': '1.60', 'unit_price': '2.39', 'sum': '3.82', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 13:15:04,099 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:15:04,474 - INFO - Order selling yourself create
+2024-01-16 13:16:04,873 - INFO - Start code logic for buying a user asset
+2024-01-16 13:16:05,768 - INFO - My balance in UAH = 259.83
+2024-01-16 13:16:05,968 - INFO - {'volume': '1.98', 'unit_price': '2.38', 'sum': '4.71', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 13:17:06,752 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:17:07,078 - INFO - Order selling yourself create
+2024-01-16 13:18:07,567 - INFO - Start code logic for buying a user asset
+2024-01-16 13:18:08,602 - INFO - My balance in UAH = 259.82
+2024-01-16 13:18:08,846 - INFO - {'volume': '1.05', 'unit_price': '2.38', 'sum': '2.49', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 13:19:09,810 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:19:10,171 - INFO - Order buying yourself create
+2024-01-16 13:20:10,537 - INFO - Start code logic for selling a user asset
+2024-01-16 13:20:11,485 - INFO - My balance in KUB = 14.24
+2024-01-16 13:20:11,656 - INFO - {'volume': '0.14', 'unit_price': '2.41', 'sum': '0.33', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 13:21:12,594 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:21:12,967 - INFO - Order buying yourself create
+2024-01-16 13:22:13,316 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:22:13,637 - INFO - Order buying yourself create
+2024-01-16 13:23:14,062 - INFO - Start code logic for selling a user asset
+2024-01-16 13:23:14,974 - INFO - My balance in KUB = 14.24
+2024-01-16 13:23:15,204 - INFO - {'volume': '0.58', 'unit_price': '2.41', 'sum': '1.39', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 13:24:16,392 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:24:16,991 - INFO - Order selling yourself create
+2024-01-16 13:25:17,375 - INFO - Start code logic for buying a user asset
+2024-01-16 13:25:18,369 - INFO - My balance in UAH = 259.80
+2024-01-16 13:25:19,195 - INFO - {'volume': '0.37', 'unit_price': '2.39', 'sum': '0.88', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 13:26:20,053 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:26:20,368 - INFO - Order selling yourself create
+2024-01-16 13:27:20,786 - INFO - Start code logic for buying a user asset
+2024-01-16 13:27:21,588 - INFO - My balance in UAH = 259.80
+2024-01-16 13:27:21,783 - INFO - {'volume': '1.78', 'unit_price': '2.39', 'sum': '4.25', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 13:28:22,858 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:28:23,279 - INFO - Order selling yourself create
+2024-01-16 13:29:23,624 - INFO - Start code logic for buying a user asset
+2024-01-16 13:29:24,498 - INFO - My balance in UAH = 259.79
+2024-01-16 13:29:24,748 - INFO - {'volume': '1.87', 'unit_price': '2.38', 'sum': '4.45', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 13:30:25,451 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:30:25,858 - INFO - Order selling yourself create
+2024-01-16 13:31:26,252 - INFO - Start code logic for buying a user asset
+2024-01-16 13:31:27,670 - INFO - My balance in UAH = 259.78
+2024-01-16 13:31:27,875 - INFO - {'volume': '0.43', 'unit_price': '2.39', 'sum': '1.02', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 13:32:28,871 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:32:29,584 - INFO - Order selling yourself create
+2024-01-16 13:33:30,630 - INFO - Start code logic for buying a user asset
+2024-01-16 13:33:31,454 - INFO - My balance in UAH = 259.78
+2024-01-16 13:33:32,238 - INFO - {'volume': '0.73', 'unit_price': '2.38', 'sum': '1.73', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 13:34:33,148 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:34:33,636 - INFO - Order selling yourself create
+2024-01-16 13:35:34,076 - INFO - Start code logic for buying a user asset
+2024-01-16 13:35:35,157 - INFO - My balance in UAH = 259.77
+2024-01-16 13:35:35,325 - INFO - {'volume': '1.36', 'unit_price': '2.39', 'sum': '3.25', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 13:36:36,265 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:36:36,563 - INFO - Order selling yourself create
+2024-01-16 13:37:37,042 - INFO - Start code logic for buying a user asset
+2024-01-16 13:37:37,857 - INFO - My balance in UAH = 259.76
+2024-01-16 13:37:38,034 - INFO - {'volume': '1.29', 'unit_price': '2.38', 'sum': '3.07', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 13:38:39,094 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:38:39,438 - INFO - Order selling yourself create
+2024-01-16 13:40:43,287 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTQ5MTY0MywiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU0MDUyNDN9.Mf563rwdTr1GyCCb6v-dytAY9Rgo7TVvqXTWhc-eApY"}
+2024-01-16 13:40:43,625 - INFO - Start code logic for buying a user asset
+2024-01-16 13:40:44,756 - INFO - My balance in UAH = 259.76
+2024-01-16 13:40:45,054 - INFO - {'volume': '2.00', 'unit_price': '2.38', 'sum': '4.76', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 13:41:45,955 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:41:46,437 - INFO - Order buying yourself create
+2024-01-16 13:42:46,819 - INFO - Start code logic for selling a user asset
+2024-01-16 13:42:47,574 - INFO - My balance in KUB = 14.21
+2024-01-16 13:42:47,781 - INFO - {'volume': '1.58', 'unit_price': '2.41', 'sum': '3.80', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 13:43:48,783 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:43:49,234 - INFO - Order buying yourself create
+2024-01-16 13:44:49,618 - INFO - Start code logic for selling a user asset
+2024-01-16 13:44:50,472 - INFO - My balance in KUB = 14.21
+2024-01-16 13:44:50,667 - INFO - {'volume': '0.45', 'unit_price': '2.41', 'sum': '1.08', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 13:45:51,785 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:45:52,084 - INFO - Order buying yourself create
+2024-01-16 13:46:52,459 - INFO - Start code logic for selling a user asset
+2024-01-16 13:46:53,434 - INFO - My balance in KUB = 14.21
+2024-01-16 13:46:53,662 - INFO - {'volume': '1.66', 'unit_price': '2.41', 'sum': '4.00', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 13:47:54,770 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:47:55,227 - INFO - Order buying yourself create
+2024-01-16 13:48:55,725 - INFO - Start code logic for selling a user asset
+2024-01-16 13:48:56,569 - INFO - My balance in KUB = 14.20
+2024-01-16 13:48:56,775 - INFO - {'volume': '0.84', 'unit_price': '2.42', 'sum': '2.03', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 13:49:58,091 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:49:58,422 - INFO - Order buying yourself create
+2024-01-16 13:50:58,823 - INFO - Start code logic for selling a user asset
+2024-01-16 13:50:59,729 - INFO - My balance in KUB = 14.20
+2024-01-16 13:50:59,948 - INFO - {'volume': '0.05', 'unit_price': '2.43', 'sum': '0.12', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 13:52:01,115 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:52:01,553 - INFO - Order selling yourself create
+2024-01-16 13:53:01,967 - INFO - Start code logic for buying a user asset
+2024-01-16 13:53:02,873 - INFO - My balance in UAH = 259.72
+2024-01-16 13:53:03,061 - INFO - {'volume': '0.35', 'unit_price': '2.37', 'sum': '0.82', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 13:54:04,917 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:54:05,339 - INFO - Order selling yourself create
+2024-01-16 13:55:05,773 - INFO - Start code logic for buying a user asset
+2024-01-16 13:55:06,726 - INFO - My balance in UAH = 259.72
+2024-01-16 13:55:06,961 - INFO - {'volume': '0.46', 'unit_price': '2.38', 'sum': '1.09', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 13:56:07,862 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:56:08,221 - INFO - Order selling yourself create
+2024-01-16 13:57:08,573 - INFO - Start code logic for buying a user asset
+2024-01-16 13:57:09,432 - INFO - My balance in UAH = 259.71
+2024-01-16 13:57:09,604 - INFO - {'volume': '0.02', 'unit_price': '2.39', 'sum': '0.04', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 13:58:10,558 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:58:11,058 - INFO - Order buying yourself create
+2024-01-16 13:59:11,524 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 13:59:12,213 - INFO - Order selling yourself create
+2024-01-16 14:00:12,644 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 14:00:13,514 - INFO - Order selling yourself create
+2024-01-16 14:01:13,915 - INFO - Start code logic for buying a user asset
+2024-01-16 14:01:14,728 - INFO - My balance in UAH = 259.71
+2024-01-16 14:01:14,946 - INFO - {'volume': '1.56', 'unit_price': '2.38', 'sum': '3.71', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 14:02:15,924 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 14:02:16,336 - INFO - Order selling yourself create
+2024-01-16 14:03:16,697 - INFO - Start code logic for buying a user asset
+2024-01-16 14:03:17,709 - INFO - My balance in UAH = 259.70
+2024-01-16 14:03:17,911 - INFO - {'volume': '1.18', 'unit_price': '2.38', 'sum': '2.80', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 14:04:18,866 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 14:04:19,320 - INFO - Order selling yourself create
+2024-01-16 14:05:19,698 - INFO - Start code logic for buying a user asset
+2024-01-16 14:05:20,532 - INFO - My balance in UAH = 259.69
+2024-01-16 14:05:20,752 - INFO - {'volume': '0.32', 'unit_price': '2.39', 'sum': '0.76', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 14:06:21,746 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 14:06:22,155 - INFO - Order buying yourself create
+2024-01-16 14:07:22,592 - INFO - Start code logic for selling a user asset
+2024-01-16 14:07:23,824 - INFO - My balance in KUB = 14.19
+2024-01-16 14:07:24,022 - INFO - {'volume': '0.57', 'unit_price': '2.42', 'sum': '1.37', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 14:08:24,838 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 14:08:25,204 - INFO - Order buying yourself create
+2024-01-16 14:09:25,670 - INFO - Start code logic for selling a user asset
+2024-01-16 14:09:26,820 - INFO - My balance in KUB = 14.19
+2024-01-16 14:09:27,040 - INFO - {'volume': '1.05', 'unit_price': '2.41', 'sum': '2.53', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 14:10:27,849 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 14:10:28,416 - INFO - Order selling yourself create
+2024-01-16 14:11:28,815 - INFO - Start code logic for buying a user asset
+2024-01-16 14:11:29,732 - INFO - My balance in UAH = 259.68
+2024-01-16 14:11:29,925 - INFO - {'volume': '0.16', 'unit_price': '2.39', 'sum': '0.38', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 14:12:30,796 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 14:12:31,149 - INFO - Order selling yourself create
+2024-01-16 14:13:31,561 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 14:13:31,865 - INFO - Order selling yourself create
+2024-01-16 14:14:32,398 - INFO - Start code logic for buying a user asset
+2024-01-16 14:14:33,197 - INFO - My balance in UAH = 259.68
+2024-01-16 14:14:33,369 - INFO - {'volume': '0.82', 'unit_price': '2.39', 'sum': '1.95', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 14:15:34,317 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 14:15:35,114 - INFO - Order buying yourself create
+2024-01-16 14:16:35,473 - INFO - Start code logic for selling a user asset
+2024-01-16 14:16:40,240 - INFO - My balance in KUB = 14.18
+2024-01-16 14:16:40,412 - INFO - {'volume': '0.30', 'unit_price': '2.41', 'sum': '0.72', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 14:17:41,459 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 14:17:41,770 - INFO - Order selling yourself create
+2024-01-16 14:18:42,125 - INFO - Start code logic for buying a user asset
+2024-01-16 14:18:43,034 - INFO - My balance in UAH = 259.67
+2024-01-16 14:18:43,238 - INFO - {'volume': '1.41', 'unit_price': '2.39', 'sum': '3.36', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 14:19:44,248 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 14:19:44,715 - INFO - Order buying yourself create
+2024-01-16 14:20:45,191 - INFO - Start code logic for selling a user asset
+2024-01-16 14:20:46,301 - INFO - My balance in KUB = 14.18
+2024-01-16 14:20:46,519 - INFO - {'volume': '1.02', 'unit_price': '2.42', 'sum': '2.46', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 14:21:47,527 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 14:21:47,955 - INFO - Order buying yourself create
+2024-01-16 14:22:48,351 - INFO - Start code logic for selling a user asset
+2024-01-16 14:22:49,337 - INFO - My balance in KUB = 14.18
+2024-01-16 14:22:49,555 - INFO - {'volume': '1.22', 'unit_price': '2.42', 'sum': '2.95', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-16 14:23:50,899 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 14:23:51,271 - INFO - Order selling yourself create
+2024-01-16 14:24:51,760 - INFO - Start code logic for buying a user asset
+2024-01-16 14:24:52,897 - INFO - My balance in UAH = 259.65
+2024-01-16 14:24:53,115 - INFO - {'volume': '1.73', 'unit_price': '2.39', 'sum': '4.13', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 14:25:53,894 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 14:25:54,233 - INFO - Order selling yourself create
+2024-01-16 14:26:54,630 - INFO - Start code logic for buying a user asset
+2024-01-16 14:26:55,517 - INFO - My balance in UAH = 259.64
+2024-01-16 14:26:55,681 - INFO - {'volume': '0.90', 'unit_price': '2.38', 'sum': '2.14', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-16 14:27:56,528 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-16 14:27:56,934 - INFO - Order selling yourself create
+2024-01-16 14:28:57,288 - INFO - Start code logic for buying a user asset
+2024-01-16 14:28:58,220 - INFO - My balance in UAH = 259.64
+2024-01-16 14:28:58,417 - INFO - {'volume': '0.15', 'unit_price': '2.37', 'sum': '0.35', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-18 22:15:15,540 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTY5NTMxNSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2MDg5MTV9.mN-mokpLEvaJrh_SWEoyee2dloiLNi2R4vJsf6MCc7Y"}
+2024-01-18 22:15:16,480 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:15:16,881 - INFO - Order selling yourself create
+2024-01-18 22:16:17,288 - INFO - Start code logic for buying a user asset
+2024-01-18 22:16:18,221 - INFO - My balance in UAH = 259.63
+2024-01-18 22:16:18,436 - INFO - {'volume': '0.18', 'unit_price': '2.46', 'sum': '0.44', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-18 22:16:45,627 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTY5NTQwNSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2MDkwMDV9.GJCITpSWa3mrBYZYocuZ5vTKIbUBGbMz9p7MhjaYttQ"}
+2024-01-18 22:16:45,996 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:16:46,456 - INFO - Order selling yourself create
+2024-01-18 22:23:40,530 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTY5NTgyMCwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2MDk0MjB9.ArwDRdjA9_YToMPlddFdPca042QSLkpfoxDcGUvpIbw"}
+2024-01-18 22:23:40,915 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:23:41,253 - INFO - Order selling yourself create
+2024-01-18 22:24:01,626 - INFO - Start code logic for buying a user asset
+2024-01-18 22:24:02,708 - INFO - My balance in UAH = 259.63
+2024-01-18 22:24:02,977 - INFO - {'volume': '1.40', 'unit_price': '2.45', 'sum': '3.43', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-18 22:24:23,913 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:24:24,383 - INFO - Order selling yourself create
+2024-01-18 22:25:21,222 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTY5NTkyMSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2MDk1MjF9.dv0Xv_v_OMtEdgFq12wvlCJS_kpHansd15zGAwccPh4"}
+2024-01-18 22:25:21,722 - INFO - Start code logic for selling a user asset
+2024-01-18 22:25:22,867 - INFO - My balance in KUB = 14.16
+2024-01-18 22:25:23,075 - INFO - {'volume': '14.00', 'unit_price': '2.42', 'sum': '33.88', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-18 22:27:43,744 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTY5NjA2MywiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2MDk2NjN9.4J6zQHnozW8cjjEPX3Mhd9HwHYG9mZtlf4ziht5a7gA"}
+2024-01-18 22:27:44,086 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:27:44,556 - INFO - Order buying yourself create
+2024-01-18 22:28:04,925 - INFO - Start code logic for selling a user asset
+2024-01-18 22:28:05,997 - INFO - My balance in KUB = 0.16
+2024-01-18 22:28:06,266 - INFO - {'volume': '0.64', 'unit_price': '2.48', 'sum': '1.58', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-18 22:28:06,482 - ERROR - Error getting current prices: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:28:06,482 - ERROR - Error: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:28:26,884 - INFO - Start code logic for selling a user asset
+2024-01-18 22:28:27,865 - INFO - My balance in KUB = 0.16
+2024-01-18 22:28:28,373 - INFO - {'volume': '0.64', 'unit_price': '2.48', 'sum': '1.58', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-18 22:28:28,637 - ERROR - Error getting current prices: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:28:28,637 - ERROR - Error: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:39:18,195 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTY5Njc1OCwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2MTAzNTh9.v3WuVDtyhR_LjK2Zl4gnBccvfqpUGFbMyuQO5toRxj4"}
+2024-01-18 22:39:18,599 - INFO - Start code logic for selling a user asset
+2024-01-18 22:39:19,714 - INFO - My balance in KUB = 0.16
+2024-01-18 22:39:19,898 - INFO - {'volume': '0.64', 'unit_price': '2.48', 'sum': '1.58', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-18 22:39:20,063 - ERROR - Error place_order: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:39:20,063 - ERROR - Error: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:39:40,442 - INFO - Start code logic for selling a user asset
+2024-01-18 22:39:41,244 - INFO - My balance in KUB = 0.16
+2024-01-18 22:39:41,413 - INFO - {'volume': '0.64', 'unit_price': '2.48', 'sum': '1.58', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-18 22:39:41,667 - ERROR - Error place_order: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:39:41,667 - ERROR - Error: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:43:06,848 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTY5Njk4NiwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2MTA1ODZ9.85qS9rsvuPisk_uuMJhcOcEPI34iZaq3TQSFJlyz_Tw"}
+2024-01-18 22:43:07,277 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:43:07,466 - ERROR - Error place_order: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:43:07,466 - ERROR - Error: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:43:27,830 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:43:28,021 - ERROR - Error place_order: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:43:28,021 - ERROR - Error: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:43:48,383 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:43:48,753 - INFO - Order buying yourself create
+2024-01-18 22:44:09,173 - INFO - Start code logic for selling a user asset
+2024-01-18 22:44:10,147 - INFO - My balance in KUB = 0.16
+2024-01-18 22:44:10,415 - INFO - {'volume': '1.82', 'unit_price': '2.46', 'sum': '4.47', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-18 22:44:10,568 - ERROR - Error place_order: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:44:10,568 - ERROR - Error: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:45:08,774 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTY5NzEwOCwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2MTA3MDh9.0YqWJp7P_u0aZh6Ky4TzvhqRJTVII-WeABYfzZ48IbY"}
+2024-01-18 22:45:09,152 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:45:09,557 - INFO - Order selling yourself create
+2024-01-18 22:45:29,910 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:45:30,848 - INFO - Order buying yourself create
+2024-01-18 22:45:51,297 - INFO - Start code logic for selling a user asset
+2024-01-18 22:45:52,246 - INFO - My balance in KUB = 0.16
+2024-01-18 22:45:52,435 - INFO - {'volume': '0.09', 'unit_price': '2.47', 'sum': '0.22', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-18 22:46:13,428 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:46:13,844 - INFO - Order selling yourself create
+2024-01-18 22:46:34,246 - INFO - Start code logic for buying a user asset
+2024-01-18 22:46:35,132 - INFO - My balance in UAH = 293.42
+2024-01-18 22:46:35,317 - INFO - {'volume': '0.01', 'unit_price': '2.43', 'sum': '0.02', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-18 22:46:56,104 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:46:56,474 - INFO - Order selling yourself create
+2024-01-18 22:47:16,846 - INFO - Start code logic for buying a user asset
+2024-01-18 22:47:17,865 - INFO - My balance in UAH = 293.42
+2024-01-18 22:47:18,066 - INFO - {'volume': '0.15', 'unit_price': '2.43', 'sum': '0.36', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-18 22:47:38,914 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:47:39,261 - INFO - Order selling yourself create
+2024-01-18 22:47:59,682 - INFO - Start code logic for buying a user asset
+2024-01-18 22:48:00,516 - INFO - My balance in UAH = 293.42
+2024-01-18 22:48:00,700 - INFO - {'volume': '0.04', 'unit_price': '2.43', 'sum': '0.09', 'side': 'selling', 'pair': 'KUB/UAH'}
+2024-01-18 22:49:53,378 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTY5NzM5MywiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2MTA5OTN9.CQ4KG_Ey9FCTjnz1dWCHT1CPvw7_L3uCXlJWUd2AuYA"}
+2024-01-18 22:49:53,825 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:49:54,024 - ERROR - Error place_order: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:49:54,024 - ERROR - Error: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:50:15,055 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:50:15,246 - ERROR - Error place_order: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:50:15,246 - ERROR - Error: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:50:28,765 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTY5NzQyOCwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2MTEwMjh9.7wcCMKbycRmm8Mj5VTeVilV1eaPhAktCKeXesvJo1_4"}
+2024-01-18 22:50:29,222 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:50:30,125 - INFO - Order buying yourself create
+2024-01-18 22:50:50,521 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:50:50,856 - INFO - Order selling yourself create
+2024-01-18 22:52:28,043 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTY5NzU0NywiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2MTExNDd9.Cu1sPkaqQiFOldgOhfsg5SXdZqjlMRp8LGvweq-gbmU"}
+2024-01-18 22:52:28,396 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 22:52:28,628 - ERROR - Error place_order: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 22:52:28,628 - ERROR - Error: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 23:04:53,359 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTY5ODI5MywiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2MTE4OTN9.dTrLRLLVWG6qXjZm9odaseCpLqhQwCUnzwPtiON3htM"}
+2024-01-18 23:04:53,723 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 23:04:53,892 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 23:04:53,892 - INFO - Order buying yourself create
+2024-01-18 23:05:14,530 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 23:05:14,799 - INFO - Order buying yourself create
+2024-01-18 23:05:35,250 - INFO - Start code logic for selling a user asset
+2024-01-18 23:05:36,537 - INFO - My balance in KUB = 0.26
+2024-01-18 23:05:36,747 - INFO - {'volume': '0.02', 'unit_price': '2.46', 'sum': '0.06', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-18 23:05:58,085 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 23:05:58,229 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 23:05:58,232 - INFO - Order buying yourself create
+2024-01-18 23:06:18,613 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 23:06:18,774 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 23:06:18,774 - INFO - Order selling yourself create
+2024-01-18 23:06:39,129 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 23:06:39,280 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 23:06:39,295 - INFO - Order selling yourself create
+2024-01-18 23:12:36,884 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTY5ODc1NiwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2MTIzNTZ9.QPMHlt52l0WN5zdtIGIAhxlULN2iDQo0HdpHzxPlWeo"}
+2024-01-18 23:12:37,263 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 23:12:37,416 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 23:12:37,416 - INFO - Order buying yourself create
+2024-01-18 23:12:58,149 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 23:12:58,318 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 23:12:58,318 - ERROR - Error: 'NoneType' object has no attribute 'startswith'
+2024-01-18 23:15:20,163 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTY5ODkyMCwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2MTI1MjB9.s2q4ldq2e75lbJgu70oFY0MEBQHSBrW1fJKhAlKvgIA"}
+2024-01-18 23:15:20,559 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 23:15:20,744 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 23:15:20,744 - ERROR - Error: 'NoneType' object has no attribute 'startswith'
+2024-01-18 23:19:28,851 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTY5OTE2OCwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2MTI3Njh9.HM5U6A1xnRgsIvtJcJwd0gv8VE2KPwOc1vfDv5Mp1Os"}
+2024-01-18 23:19:29,282 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 23:19:29,467 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 23:19:29,467 - INFO - Order buying yourself create
+2024-01-18 23:19:49,838 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 23:19:49,993 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-18 23:19:50,008 - ERROR - Error: startswith() takes at least 1 argument (0 given)
+2024-01-18 23:21:10,864 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTY5OTI3MCwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2MTI4NzB9.bhy-JVitoWXbdCJIXmY0uR7rbWNL9LlXLZbBvzQMGF8"}
+2024-01-18 23:21:11,278 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 23:21:11,801 - INFO - Order buying yourself create
+2024-01-18 23:21:32,220 - INFO - Start code logic for selling a user asset
+2024-01-18 23:21:33,104 - INFO - My balance in KUB = 0.26
+2024-01-18 23:21:33,337 - INFO - {'volume': '0.03', 'unit_price': '2.48', 'sum': '0.07', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-18 23:21:54,215 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-18 23:21:54,531 - ERROR - Error: 'NoneType' object has no attribute 'startswith'
+2024-01-19 15:46:01,539 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc1ODM2MSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzE5NjF9.d-9ZxVJU_tunVeMF9i9TcC-y5VbV5bEI-qoPDepKKN0"}
+2024-01-19 15:46:01,965 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:46:02,806 - INFO - Order buying yourself create
+2024-01-19 15:46:23,192 - INFO - Start code logic for selling a user asset
+2024-01-19 15:46:24,119 - INFO - My balance in KUB = 0.23
+2024-01-19 15:46:24,332 - INFO - {'volume': '0.02', 'unit_price': '2.47', 'sum': '0.04', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-19 15:46:45,239 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:46:45,544 - INFO - Order selling yourself create
+2024-01-19 15:47:14,801 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc1ODQzNCwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzIwMzR9.LB5XOVxV15n60itZYf8jOJY2pCjd5S-btIbdhwWglpQ"}
+2024-01-19 15:47:15,287 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:47:15,457 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:47:15,457 - INFO - Order buying yourself create
+2024-01-19 15:47:36,106 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:47:36,307 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:47:36,322 - INFO - Order buying yourself create
+2024-01-19 15:47:56,819 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:47:56,990 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:47:57,195 - ERROR - Error place_order selling: 503 Server Error: Service Unavailable for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:48:17,579 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:48:17,755 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:48:17,755 - INFO - Order buying yourself create
+2024-01-19 15:54:31,579 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc1ODg3MSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzI0NzF9.PFiJUdOgXBR_3kgnUw7SY95BYte0d9ihNfMAEpL3c58"}
+2024-01-19 15:54:32,096 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:54:32,283 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:54:32,422 - ERROR - Error place_order selling: 503 Server Error: Service Unavailable for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:54:52,900 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:54:53,134 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:54:53,134 - INFO - Order buying yourself create
+2024-01-19 15:58:37,738 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc1OTExNywiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzI3MTd9.n_3s5ptJddDGoBlG123oblJVpzUvwfUaFuv_iNaOsLw"}
+2024-01-19 15:58:38,172 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:58:38,373 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:58:38,506 - ERROR - Error place_order selling: 503 Server Error: Service Unavailable for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:58:58,990 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:58:59,194 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:58:59,333 - ERROR - Error place_order selling: 503 Server Error: Service Unavailable for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:59:19,801 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:59:19,956 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:59:20,102 - ERROR - Error place_order selling: 503 Server Error: Service Unavailable for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:59:40,769 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 15:59:40,932 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 15:59:40,935 - INFO - Order buying yourself create
+2024-01-19 16:00:01,360 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:00:01,565 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:00:01,581 - INFO - Order buying yourself create
+2024-01-19 16:02:19,950 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc1OTMzOSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzI5Mzl9.f1HnmJ9m_u_BZZQOzb0UxPGROirzI0fZRwaxk9Harus"}
+2024-01-19 16:02:20,444 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:02:20,607 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:02:20,607 - INFO - Order buying yourself create
+2024-01-19 16:02:41,083 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:02:41,601 - INFO - Order selling yourself create
+2024-01-19 16:03:02,006 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:03:02,205 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:03:02,205 - INFO - Order buying yourself create
+2024-01-19 16:03:22,690 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:03:22,870 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:03:43,316 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:03:43,506 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:03:43,506 - INFO - Order buying yourself create
+2024-01-19 16:08:06,762 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc1OTY4NiwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzMyODZ9.33bp4EB9oX6PhpbjLvDsvUs1ywYiU7Du4J2vZUwJecs"}
+2024-01-19 16:08:07,191 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:08:07,375 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:08:27,781 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:08:27,972 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:08:48,447 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:08:48,654 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:09:09,052 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:09:09,256 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:14:43,351 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc2MDA4MywiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzM2ODN9.pl7i6tg89jbVCu4lQuRynvAJ_w2ec2WM17jTMRGL8ds"}
+2024-01-19 16:14:43,731 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:14:43,901 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-19 16:16:52,651 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc2MDIxMiwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzM4MTJ9.IEX-bNkuPNjMKpan4ZhpG1JuSu4O2WInFoZPLcON454"}
+2024-01-19 16:16:53,134 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:16:53,494 - INFO - Order buying yourself create
+2024-01-19 16:17:25,084 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNTc2MDI0NCwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU2NzM4NDR9.kuqjSQTdu457VsU_usC-7dLdFmkhX2p8nfkHZH9tq8c"}
+2024-01-19 16:17:25,503 - INFO - Start code logic for selling a user asset
+2024-01-19 16:17:26,773 - INFO - My balance in KUB = 0.23
+2024-01-19 16:17:26,955 - INFO - {'volume': '0.12', 'unit_price': '2.46', 'sum': '0.29', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-19 16:17:38,151 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:17:38,629 - INFO - Order buying yourself create
+2024-01-19 16:17:49,165 - INFO - Start code logic for selling a user asset
+2024-01-19 16:17:50,625 - INFO - My balance in KUB = 0.23
+2024-01-19 16:17:50,845 - INFO - {'volume': '0.15', 'unit_price': '2.47', 'sum': '0.37', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-19 16:18:01,828 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-19 16:18:02,221 - INFO - Order buying yourself create
+2024-01-19 16:18:12,598 - INFO - Start code logic for selling a user asset
+2024-01-19 16:18:13,480 - INFO - My balance in KUB = 0.23
+2024-01-19 16:18:13,671 - INFO - {'volume': '0.07', 'unit_price': '2.47', 'sum': '0.17', 'side': 'buying', 'pair': 'KUB/UAH'}
+2024-01-22 23:31:19,457 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNjA0NTQ3OCwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU5NTkwNzh9.nZp-lIJDMYHCwO_iIJAB2-HbvbBMMYJ5OJsQ3lJ5u60"}
+2024-01-22 23:31:20,108 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-22 23:31:20,252 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-22 23:31:40,813 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-22 23:31:40,961 - ERROR - Error place_order buying: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-22 23:41:40,662 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNjA0NjA5OSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU5NTk2OTl9.zbZaiUQLukZd8G2QWXs6H5JDqbiRArfKUWvhtqNJbAY"}
+2024-01-22 23:41:41,352 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-22 23:41:41,508 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-22 23:42:02,155 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-22 23:42:02,340 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-22 23:52:45,265 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNjA0Njc2NCwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU5NjAzNjR9.KfdG-qVRvtHrjJX9KoFPVME90ckZUnth1tl-jR7ps3k"}
+2024-01-22 23:52:45,808 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-22 23:52:46,344 - INFO - Order buying yourself create
+2024-01-22 23:53:07,329 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-22 23:53:07,671 - INFO - Order buying yourself create
+2024-01-22 23:54:00,018 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNjA0NjgzOSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU5NjA0Mzl9.8sSNZ7SwpUvFWsnSCUGUTHHsqTB1BAVlCu2o2bhOm_8"}
+2024-01-22 23:54:00,535 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-22 23:54:00,846 - INFO - Order buying yourself create
+2024-01-22 23:54:21,478 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-22 23:54:21,829 - INFO - Order buying yourself create
+2024-01-22 23:54:42,420 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-22 23:54:42,922 - INFO - Order selling yourself create
+2024-01-22 23:55:03,450 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-22 23:55:03,963 - INFO - Order buying yourself create
+2024-01-22 23:55:24,582 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-22 23:55:25,032 - INFO - Order selling yourself create
+2024-01-23 00:04:16,223 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNjA0NzQ1NSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU5NjEwNTV9.f_gt-MbVMm0aiX0kHTOchZLPCmGSrXe8aI8A7AgrdCM"}
+2024-01-23 00:04:16,933 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-23 00:04:17,215 - INFO - Order buying yourself create
+2024-01-23 00:05:17,932 - INFO - Start code logic for selling a user asset
+2024-01-23 00:05:19,323 - INFO - My balance in BTC = 0.00006314
+2024-01-23 00:05:19,545 - INFO - {'volume': '0.00001813', 'unit_price': '1778670.48', 'sum': '32.24', 'side': 'buying', 'pair': 'BTC/UAH'}
+2024-01-23 00:06:20,538 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-23 00:06:20,950 - INFO - Order selling yourself create
+2024-01-23 00:07:21,574 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-23 00:07:22,033 - INFO - Order buying yourself create
+2024-01-23 00:12:54,792 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNjA0Nzk3MywiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU5NjE1NzN9.UNIx1ad9cHzGdCHWVkQOGwt7vQrXTwpnEh2gisXVa-U"}
+2024-01-23 00:12:55,254 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-23 00:12:56,163 - INFO - Order selling yourself create
+2024-01-23 00:12:56,564 - INFO - {'volume': '0.00000006', 'unit_price': '1710017.22', 'sum': '0.10', 'side': 'buying', 'pair': 'BTC/UAH'}
+2024-01-23 00:13:57,150 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-23 00:13:57,470 - INFO - Order buying yourself create
+2024-01-23 00:15:04,123 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNjA0ODEwMywiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU5NjE3MDN9.YFXSkgZxKVyQECrWlGiGm4TYzgykQAxu7X5udo9qKNc"}
+2024-01-23 00:15:04,636 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-23 00:15:04,967 - INFO - Order buying yourself create
+2024-01-23 00:15:55,779 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNjA0ODE1NCwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU5NjE3NTR9.jkxy11vODXftkXb2ZIOtaGYsXxwNuVTJG2rk6QL_q50"}
+2024-01-23 00:15:56,601 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-23 00:15:56,754 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-23 00:16:40,674 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNjA0ODE5OSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU5NjE3OTl9.7LOlktowlLdd9y-IOu7BhOF7DUHxbgBzVIksi2tqRLE"}
+2024-01-23 00:16:41,266 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-23 00:16:41,632 - INFO - Order buying yourself create
+2024-01-23 00:16:41,910 - INFO - {'volume': '0.00006868', 'unit_price': '1800000.00', 'sum': '123.62', 'side': 'selling', 'pair': 'BTC/UAH'}
+2024-01-23 00:19:01,574 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNjA0ODM0MCwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU5NjE5NDB9.8xseLSKt-fGfFITR6_MoIw99rQHw3EH8G0E01EzHTLs"}
+2024-01-23 00:19:02,140 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-23 00:19:03,032 - INFO - Order selling yourself create
+2024-01-23 00:19:03,423 - INFO - {'volume': '0.00002137', 'unit_price': '1714003.13', 'sum': '36.62', 'side': 'selling', 'pair': 'BTC/UAH'}
+2024-01-23 00:20:04,545 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-23 00:20:04,674 - ERROR - Error place_order selling: 400 Client Error: Bad Request for url: https://richamster.com/public/v1/exchange/user/orders/
+2024-01-23 00:22:56,452 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4NzY3LCJ1c2VybmFtZSI6IkFsZXhARyIsImV4cCI6MTcwNjA0ODU3NSwiZW1haWwiOiJhbGV4ZXkuaS5nb3J5YWNoZXZAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MDU5NjIxNzV9.44fnEWh5Y64IKzmF8K9AXHgf9UWAVsIfauTE-m7Sj0Y"}
+2024-01-23 00:22:57,037 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-23 00:22:57,337 - INFO - Order selling yourself create
+2024-01-23 00:22:58,011 - INFO - {'volume': '0.00000005', 'unit_price': '1742296.72', 'sum': '0.08', 'side': 'selling', 'pair': 'BTC/UAH'}
+2024-01-23 00:23:58,503 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-23 00:23:58,740 - INFO - Order selling yourself create
+2024-01-23 00:23:59,004 - INFO - {'volume': '0.00000023', 'unit_price': '1714970.40', 'sum': '0.39', 'side': 'selling', 'pair': 'BTC/UAH'}
+2024-01-23 00:24:59,611 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-01-23 00:24:59,899 - INFO - Order buying yourself create
+2024-01-23 00:25:00,130 - INFO - {'volume': '0.00000034', 'unit_price': '1777692.43', 'sum': '0.60', 'side': 'buying', 'pair': 'BTC/UAH'}
+2024-01-23 00:26:00,608 - INFO - Start code logic for selling a user asset
+2024-01-23 00:26:01,840 - INFO - My balance in BTC = 0.00000364
+2024-01-23 00:26:02,167 - INFO - {'volume': '0.00000034', 'unit_price': '1777692.43', 'sum': '0.60', 'side': 'buying', 'pair': 'BTC/UAH'}

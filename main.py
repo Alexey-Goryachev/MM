@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 # Get authentication data from environment variables
 load_dotenv()
 
-base_currency = os.environ.get('BASE_CURRENCY')  
-trading_pair = os.environ.get('TRADING_PAIR') 
-currency_price = os.environ.get('CURRENCY_PRICE')
+base_currency = os.environ.get('BASE')  
+trading_pair =  os.environ.get('BASE') + '/' + os.environ.get('QUOTE')
+currency_price = os.environ.get('PRICE')
 
 # Create object bot
 bot = Bot(base_currency, trading_pair, currency_price)
@@ -39,7 +39,7 @@ def main(currency_price, trading_pair):
             logger.error(f'Error: {str(e)}')
                 
         #Some pause for don't over load exchange requests 
-        sleep(60)
+        sleep(int(os.environ.get('TIME_REQUEST')))
      
 if __name__ == "__main__":
     main(currency_price, trading_pair)

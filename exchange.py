@@ -49,10 +49,10 @@ class Exchange:
                 status_code = getattr(e, 'response', None)
                 logger.info(status_code)
                 if status_code is not None:
-                    logger.error(f'Authentication failed: {str(e)}, Status code: {status_code}')
+                    logger.error(f'Authentication failed token verify: {str(e)}, Status code: {status_code}')
                 else:
-                    logger.error(f'Authentication failed: {str(e)}')
-                    raise
+                    logger.error(f'Authentication failed token verify: {str(e)}')
+                    return f'Authentication failed token verify'
         except Exception as e:
             # Print an error message with a response code, if available
             status_code = getattr(e, 'response', None)
@@ -61,7 +61,7 @@ class Exchange:
                 logger.error(f'Authentication failed: {str(e)}, Status code: {status_code}')
             else:
                 logger.error(f'Authentication failed: {str(e)}')
-                raise
+                return f'Authentication failed'
 
     
             
@@ -88,7 +88,7 @@ class Exchange:
             return prices  
         except requests.exceptions.RequestException as e:
             logger.error(f'Error getting current prices: {str(e)}')
-            raise
+            return f'Error getting current prices: {str(e)}'
         
     def place_order(self, amount, unit_price, currency_pair, type):
         # Placing an order on the exchange
@@ -102,8 +102,8 @@ class Exchange:
             response.raise_for_status()
 
         except requests.exceptions.RequestException as e:
-            logger.error(f'Error getting current prices: {str(e)}')
-            raise
+            logger.error(f'Error place_order {type}: {str(e)}')
+            return f'Error place_order {type}: {str(e)}'
 
     def get_my_balance(self, current):
         # Getting personal balance
@@ -128,5 +128,5 @@ class Exchange:
                 else:
                     continue
         except requests.exceptions.RequestException as e:
-            logger.error(f'Error getting current prices: {str(e)}')
-            raise
+            logger.error(f'Error get my balance: {str(e)}')
+            return f'Error get my balance: {str(e)}'
