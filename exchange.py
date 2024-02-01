@@ -15,7 +15,7 @@ class Exchange:
         self.currency_price = currency_price
         self.login = os.environ.get('LOGIN')
         self.password = os.environ.get('PASSWORD')
-        self.base_url = 'http://185.197.251.129/public/v1' 
+        self.base_url = os.environ.get('API_URL') 
 
         # Call the authenticate method when creating an Exchange object
         self.authenticate()
