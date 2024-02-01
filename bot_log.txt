@@ -1840,3 +1840,157 @@
 2024-01-23 00:26:00,608 - INFO - Start code logic for selling a user asset
 2024-01-23 00:26:01,840 - INFO - My balance in BTC = 0.00000364
 2024-01-23 00:26:02,167 - INFO - {'volume': '0.00000034', 'unit_price': '1777692.43', 'sum': '0.60', 'side': 'buying', 'pair': 'BTC/UAH'}
+2024-02-01 23:28:02,578 - INFO - <Response [403]>
+2024-02-01 23:28:02,578 - ERROR - Authentication failed: 403 Client Error: Forbidden for url: https://api.trs.kharkiv.ua/api/v1/login/, Status code: <Response [403]>
+2024-02-01 23:28:02,862 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:28:03,122 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:28:03,122 - INFO - Start code logic for selling a user asset
+2024-02-01 23:28:03,122 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:33:23,980 - INFO - <Response [403]>
+2024-02-01 23:33:23,980 - ERROR - Authentication failed: 403 Client Error: Forbidden for url: https://api.trs.kharkiv.ua/api/v1/login/, Status code: <Response [403]>
+2024-02-01 23:33:24,310 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:33:24,591 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:33:24,591 - INFO - Start code logic for selling a user asset
+2024-02-01 23:33:24,591 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:34:16,350 - INFO - <Response [403]>
+2024-02-01 23:34:16,351 - ERROR - Authentication failed: 403 Client Error: Forbidden for url: https://api.trs.kharkiv.ua/api/v1/login/, Status code: <Response [403]>
+2024-02-01 23:34:16,581 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:34:16,829 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:34:16,829 - INFO - Start code logic for selling a user asset
+2024-02-01 23:34:16,844 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:35:17,138 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:35:17,424 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:35:17,424 - INFO - Start code logic for selling a user asset
+2024-02-01 23:35:17,424 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:36:17,702 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:36:18,074 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:36:18,076 - INFO - Start code logic for selling a user asset
+2024-02-01 23:36:18,076 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:37:18,417 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:37:18,683 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:37:18,683 - INFO - Start code logic for selling a user asset
+2024-02-01 23:37:18,683 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:38:18,963 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:38:19,230 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:38:19,230 - INFO - Start code logic for selling a user asset
+2024-02-01 23:38:19,230 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:38:39,918 - INFO - None
+2024-02-01 23:38:39,918 - ERROR - Authentication failed: Invalid URL 'api.trs.kharkiv.ua/api/v1/login/': No scheme supplied. Perhaps you meant https://api.trs.kharkiv.ua/api/v1/login/?
+2024-02-01 23:38:39,918 - ERROR - Error getting current prices: Invalid URL 'api.trs.kharkiv.ua/api/v1/exchange/order-book/': No scheme supplied. Perhaps you meant https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?
+2024-02-01 23:38:39,918 - ERROR - Error getting current prices: Invalid URL 'api.trs.kharkiv.ua/api/v1/exchange/order-book/': No scheme supplied. Perhaps you meant https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?
+2024-02-01 23:38:39,918 - INFO - Start code logic for selling a user asset
+2024-02-01 23:38:39,918 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:39:24,909 - INFO - <Response [403]>
+2024-02-01 23:39:24,910 - ERROR - Authentication failed: 403 Client Error: Forbidden for url: https://api.trs.kharkiv.ua/api/v1/login/, Status code: <Response [403]>
+2024-02-01 23:39:25,139 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:39:25,406 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:39:25,406 - INFO - Start code logic for selling a user asset
+2024-02-01 23:39:25,422 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:40:25,673 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:40:25,907 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:40:25,907 - INFO - Start code logic for selling a user asset
+2024-02-01 23:40:25,907 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:41:26,161 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:41:26,401 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:41:26,403 - INFO - Start code logic for selling a user asset
+2024-02-01 23:41:26,403 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:42:26,713 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:42:26,988 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:42:27,004 - INFO - Start code logic for selling a user asset
+2024-02-01 23:42:27,004 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:43:27,264 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:43:27,535 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:43:27,535 - INFO - Start code logic for selling a user asset
+2024-02-01 23:43:27,535 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:44:27,786 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:44:28,035 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:44:28,035 - INFO - Start code logic for selling a user asset
+2024-02-01 23:44:28,035 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:45:28,284 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:45:28,577 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:45:28,577 - INFO - Start code logic for selling a user asset
+2024-02-01 23:45:28,577 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:46:28,844 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:46:29,109 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:46:29,109 - INFO - Start code logic for selling a user asset
+2024-02-01 23:46:29,109 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:47:29,345 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:47:29,574 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:47:29,574 - INFO - Start code logic for selling a user asset
+2024-02-01 23:47:29,574 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:48:29,829 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:48:30,072 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:48:30,075 - INFO - Start code logic for selling a user asset
+2024-02-01 23:48:30,075 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:49:30,320 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:49:30,567 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:49:30,567 - INFO - Start code logic for selling a user asset
+2024-02-01 23:49:30,567 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:50:30,816 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:50:31,096 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:50:31,096 - INFO - Start code logic for selling a user asset
+2024-02-01 23:50:31,096 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:51:31,354 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:51:31,617 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/api/v1/exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:51:31,620 - INFO - Start code logic for selling a user asset
+2024-02-01 23:51:31,620 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:51:37,121 - INFO - <Response [400]>
+2024-02-01 23:51:37,121 - ERROR - Authentication failed: 400 Client Error: Bad Request for url: https://api.trs.kharkiv.ua/public/v1/login/, Status code: <Response [400]>
+2024-02-01 23:51:37,541 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-02-01 23:51:37,542 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:52:41,221 - INFO - None
+2024-02-01 23:52:41,221 - ERROR - Authentication failed: Invalid URL 'api.trs.kharkiv.ua/public/v1/login/': No scheme supplied. Perhaps you meant https://api.trs.kharkiv.ua/public/v1/login/?
+2024-02-01 23:52:41,221 - ERROR - Error getting current prices: Invalid URL 'api.trs.kharkiv.ua/public/v1/exchange/order-book/': No scheme supplied. Perhaps you meant https://api.trs.kharkiv.ua/public/v1/exchange/order-book/?
+2024-02-01 23:52:41,221 - ERROR - Error getting current prices: Invalid URL 'api.trs.kharkiv.ua/public/v1/exchange/order-book/': No scheme supplied. Perhaps you meant https://api.trs.kharkiv.ua/public/v1/exchange/order-book/?
+2024-02-01 23:52:41,221 - INFO - Start code logic for selling a user asset
+2024-02-01 23:52:41,221 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:53:13,274 - INFO - <Response [400]>
+2024-02-01 23:53:13,274 - ERROR - Authentication failed: 400 Client Error: Bad Request for url: https://api.trs.kharkiv.ua/public/v1/login/, Status code: <Response [400]>
+2024-02-01 23:53:13,742 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-02-01 23:53:13,742 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:54:14,547 - INFO - Start code logic for buying a user asset
+2024-02-01 23:54:14,547 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:54:43,467 - INFO - <Response [405]>
+2024-02-01 23:54:43,467 - ERROR - Authentication failed: 405 Client Error: Method Not Allowed for url: https://api.trs.kharkiv.ua/public/v1/login/, Status code: <Response [405]>
+2024-02-01 23:54:44,079 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-02-01 23:54:44,079 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:55:02,648 - INFO - <Response [400]>
+2024-02-01 23:55:02,648 - ERROR - Authentication failed: 400 Client Error: Bad Request for url: https://api.trs.kharkiv.ua/public/v1/login/, Status code: <Response [400]>
+2024-02-01 23:55:03,147 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-02-01 23:55:03,147 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:55:30,532 - INFO - <Response [400]>
+2024-02-01 23:55:30,532 - ERROR - Authentication failed: 400 Client Error: Bad Request for url: https://api.trs.kharkiv.ua/public/v1/login/, Status code: <Response [400]>
+2024-02-01 23:55:31,065 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-02-01 23:55:31,065 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:56:31,645 - INFO - Start code logic for selling a user asset
+2024-02-01 23:56:31,645 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:57:32,160 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-02-01 23:57:32,160 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:58:32,596 - INFO - Start code logic for buying a user asset
+2024-02-01 23:58:32,596 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:59:16,546 - INFO - <Response [404]>
+2024-02-01 23:59:16,546 - ERROR - Authentication failed: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/public/v1//login/, Status code: <Response [404]>
+2024-02-01 23:59:16,805 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/public/v1//exchange/order-book/?pair=BTC%2FUAH&side=selling
+2024-02-01 23:59:17,041 - ERROR - Error getting current prices: 404 Client Error: Not Found for url: https://api.trs.kharkiv.ua/public/v1//exchange/order-book/?pair=BTC%2FUAH&side=buying
+2024-02-01 23:59:17,044 - INFO - Start code logic for selling a user asset
+2024-02-01 23:59:17,044 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-01 23:59:44,396 - INFO - <Response [400]>
+2024-02-01 23:59:44,396 - ERROR - Authentication failed: 400 Client Error: Bad Request for url: https://api.trs.kharkiv.ua/public/v1/login/, Status code: <Response [400]>
+2024-02-01 23:59:44,829 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-02-01 23:59:44,829 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-02 00:00:32,037 - INFO - <Response [400]>
+2024-02-02 00:00:32,037 - ERROR - Authentication failed: 400 Client Error: Bad Request for url: https://api.trs.kharkiv.ua/public/v1/login/, Status code: <Response [400]>
+2024-02-02 00:00:32,625 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-02-02 00:00:32,626 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-02 00:01:29,697 - INFO - <Response [400]>
+2024-02-02 00:01:29,712 - ERROR - Authentication failed: 400 Client Error: Bad Request for url: https://api.trs.kharkiv.ua/public/v1/login/, Status code: <Response [400]>
+2024-02-02 00:01:30,511 - INFO - Start code logic for buying a user asset
+2024-02-02 00:01:30,511 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-02 00:02:30,913 - INFO - <Response [400]>
+2024-02-02 00:02:30,913 - ERROR - Authentication failed: 400 Client Error: Bad Request for url: https://api.trs.kharkiv.ua/public/v1/login/, Status code: <Response [400]>
+2024-02-02 00:02:31,404 - INFO - Start code logic for creating an order to sell/buy an asset through your turnover
+2024-02-02 00:02:31,405 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-02 00:03:01,045 - INFO - <Response [400]>
+2024-02-02 00:03:01,045 - ERROR - Authentication failed: 400 Client Error: Bad Request for url: https://api.trs.kharkiv.ua/public/v1/login/, Status code: <Response [400]>
+2024-02-02 00:03:01,746 - INFO - Start code logic for buying a user asset
+2024-02-02 00:03:01,746 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
