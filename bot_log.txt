@@ -1994,3 +1994,13 @@
 2024-02-02 00:03:01,045 - ERROR - Authentication failed: 400 Client Error: Bad Request for url: https://api.trs.kharkiv.ua/public/v1/login/, Status code: <Response [400]>
 2024-02-02 00:03:01,746 - INFO - Start code logic for buying a user asset
 2024-02-02 00:03:01,746 - ERROR - Error: 'Bot' object has no attribute 'token_auth'
+2024-02-02 00:13:35,853 - INFO - Token is valid {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMiwidXNlcm5hbWUiOiJUZXN0MTIzNCIsImV4cCI6MTcwNjkxMjAxNSwiZW1haWwiOiJ0ZXN0X2V4YW1wbGVAbWV0YS51YSIsIm9yaWdfaWF0IjoxNzA2ODI1NjE1fQ.pGC47n1KOqnwfCOEdoHKohZRyRMnquXVqw9KqfxKPRk"}
+2024-02-02 00:13:36,304 - INFO - Start code logic for selling a user asset
+2024-02-02 00:13:36,806 - INFO - My balance in BTC = 20.00000000
+2024-02-02 00:13:37,074 - INFO - {'volume': '0.00056637', 'unit_price': '1731227.01000000', 'sum': '980.51504165', 'side': 'buying', 'pair': 'BTC/UAH'}
+2024-02-02 00:14:38,347 - INFO - Start code logic for selling a user asset
+2024-02-02 00:14:38,847 - INFO - My balance in BTC = 19.99943363
+2024-02-02 00:14:39,222 - INFO - {'volume': '0.00058098', 'unit_price': '1721227.01000000', 'sum': '999.99846826', 'side': 'buying', 'pair': 'BTC/UAH'}
+2024-02-02 00:15:40,449 - INFO - Start code logic for selling a user asset
+2024-02-02 00:15:40,857 - INFO - My balance in BTC = 19.99885265
+2024-02-02 00:15:41,116 - INFO - {'volume': '0.00099993', 'unit_price': '1711227.01000000', 'sum': '1711.10722410', 'side': 'buying', 'pair': 'BTC/UAH'}
