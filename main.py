@@ -3,7 +3,11 @@ import os
 from bot import Bot
 from logger import logger
 from time import sleep
+import asyncio
+
 from dotenv import load_dotenv
+
+from telegram import send_telegram_message
 
 
 # Get authentication data from environment variables
@@ -34,7 +38,9 @@ def main(currency_price, trading_pair):
                 status = bot.buy_sell_youself(float(currency_price), trading_pair)
 
             if status == "break":
-                logger.info(f'Good bye, top up your balance and restart')
+                message = f'Good bye, top up your balance and restart'
+                asyncio.run(send_telegram_message(os.environ.get('API_TOKEN_BOT'), os.environ.get('CHAT_ID'), message))
+                logger.info(message)
                 break
         except Exception as e:
             logger.error(f'Error: {str(e)}')

@@ -1,8 +1,11 @@
 import os
-from exchange import Exchange
 import random
+import asyncio
+
 from dotenv import load_dotenv
 
+from exchange import Exchange
+from telegram import send_telegram_message
 from logger import logger
 
 load_dotenv()
@@ -46,7 +49,9 @@ class Bot(Exchange):
             logger.info(order) 
             self.place_order(order['volume'], order['unit_price'], order['pair'], type='buying')
         else:
-            logger.warning(f'My balance {currency} lower, then minimum. Top up your balance ')
+            message = f'My balance {currency} lower, then minimum. Top up your balance '
+            asyncio.run(send_telegram_message(os.environ.get('API_TOKEN_BOT'), os.environ.get('CHAT_ID'), message))
+            logger.warning(message)
             return  "break"
         
         
@@ -64,7 +69,9 @@ class Bot(Exchange):
             logger.info(order)
             self.place_order(order['volume'], order['unit_price'], order['pair'], type='selling')      
         else:
-            logger.warning(f'My balance {currency} lower, then minimum. Top up your balance ')
+            message = f'My balance {currency} lower, then minimum. Top up your balance '
+            asyncio.run(send_telegram_message(os.environ.get('API_TOKEN_BOT'), os.environ.get('CHAT_ID'), message))
+            logger.warning(message)
             return  "break"
 
     
